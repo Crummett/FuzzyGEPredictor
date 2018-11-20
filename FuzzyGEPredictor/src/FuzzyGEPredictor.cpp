@@ -3,10 +3,11 @@
 
 #include "FuzzyGEPredictor.h"
 
-using namespace std;
-
 int main()
 {
-	cout << "Hello CMake." << endl;
-	return 0;
+   Constituency * Example = new Constituency;
+
+   cout << "fetching...";
+   Example->fetchPastResults();
+   cout << "\nfetched";
 }

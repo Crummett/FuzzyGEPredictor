@@ -7,7 +7,7 @@ Release/*
 FuzzyGEPredictor.dir/*
 Release/*
 Win32/*
-
+electdata/*
 
 *.vcxproj
 CMakeCache.txt
