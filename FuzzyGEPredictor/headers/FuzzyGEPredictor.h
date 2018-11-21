@@ -12,7 +12,7 @@ using namespace fl;
 using namespace std;
 
 const enum Area
-{
+{ // The constituency regions
    NotSure,
    NorthernIreland,
    Scotland,
@@ -29,7 +29,7 @@ const enum Area
 };
 
 const string saElectData[9]
-{
+{ // Filepaths of the electoral data files
    ".\\electdata\\electdata_1983.csv",
    ".\\electdata\\electdata_1987.csv",
    ".\\electdata\\electdata_1992ob.csv",
@@ -39,6 +39,19 @@ const string saElectData[9]
    ".\\electdata\\electdata_2010.csv",
    ".\\electdata\\electdata_2015.csv",
    ".\\electdata\\electdata_2017.csv",
+};
+
+const int ElectionYears[9]
+{ //Election years of the equivalent election data files
+   1983,
+   1987,
+   1992,
+   1997,
+   2001,
+   2005,
+   2010,
+   2015,
+   2017,
 };
 
 #include "Constituency.h"

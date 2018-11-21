@@ -5,7 +5,7 @@
 
 int main()
 {
-   Constituency * Example = new Constituency;
+   Constituency * Example = new Constituency(0);
 
    cout << "fetching...";
    Example->fetchPastResults();
