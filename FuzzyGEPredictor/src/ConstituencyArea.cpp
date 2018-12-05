@@ -17,7 +17,6 @@ ConstituencyArea::~ConstituencyArea()
 bool ConstituencyArea::fetchResults()
 {
    // Fetch csv files and take their contents
-
    int iGE = 0;
 
    for each ( string sElectFile in saElectData )
@@ -27,9 +26,15 @@ bool ConstituencyArea::fetchResults()
 
       if ( currentFile.is_open() )
       {
-         //Ignore first 2 lines
-         currentFile.ignore( 256, '\n' );
-         currentFile.ignore( 256, '\n' );
+         //Ensure correct delimiter
+         string firstLine;
+         char delim = ','; // Comma is standard for csv
+         getline( currentFile, firstLine );
+         if ( firstLine == "sep=;" ) // if ';' is delimiter, will be specified on first line
+         {
+            delim = ';';
+            currentFile.ignore( 999, '\n' ); // Ignore column titles
+         }
 
          string::size_type sizetype;
 
@@ -47,7 +52,7 @@ bool ConstituencyArea::fetchResults()
                while ( sStreamLine.good() )
                {
                   string substring;
-                  getline( sStreamLine, substring, ';' );
+                  getline( sStreamLine, substring, delim );
                   constituencyDetails.push_back( substring );
                }
 
@@ -89,10 +94,13 @@ bool ConstituencyArea::fetchResults()
 
          }
 
-         newResult.iGEYear = ElectionYears[iGE];
-         iGE++;
+         if ( newResult.ivElectorate.size() > 0 )
+         {
+            newResult.iGEYear = ElectionYears[iGE];
+            vResults.push_back( newResult );
+         }
 
-         vResults.push_back( newResult );
+         iGE++;
       }
       else
       {

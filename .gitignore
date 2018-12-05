@@ -1,13 +1,13 @@
 
-fuzzylite/*
-.vs/*
-CMakeFiles/*
-Debug/*
-Release/*
-FuzzyGEPredictor.dir/*
-Release/*
-Win32/*
-electdata/*
+/fuzzylite
+/.vs
+/CMakeFiles
+/Debug
+/Release
+/FuzzyGEPredictor.dir
+/Win32
+/electdata
+/pollingdata
 
 *.vcxproj
 CMakeCache.txt

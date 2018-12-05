@@ -13,7 +13,7 @@ using namespace std;
 
 const enum Area
 { // The constituency regions
-   NotSure,
+   AreaErr,
    NorthernIreland,
    Scotland,
    NorthEast,
@@ -41,6 +41,11 @@ const string saElectData[9]
    ".\\electdata\\electdata_2017.csv",
 };
 
+const string saPollData[1]
+{ // Filepaths of the polling data files, seperated by decade/question set
+   ".\\pollingdata\\polling.csv",
+};
+
 const int ElectionYears[9]
 { //Election years of the equivalent election data files
    1983,
@@ -54,6 +59,24 @@ const int ElectionYears[9]
    2017,
 };
 
+const enum Month
+{
+   MonthErr,
+   January,
+   February,
+   March,
+   April,
+   May,
+   June,
+   July,
+   August,
+   September,
+   October,
+   November,
+   December
+};
+
 #include "ConstituencyArea.h"
+#include "PollingReader.h"
 
 #include <windows.h>

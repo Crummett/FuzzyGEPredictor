@@ -4,10 +4,18 @@
 
 int main()
 {
-   ConstituencyArea * Example = new ConstituencyArea( 1 );
+   ConstituencyArea * Example = new ConstituencyArea( SouthEast );
 
-   cout << "fetching...";
+   cout << "fetching constituencies...";
    if ( Example->fetchResults() )
+   {
+      cout << "\nfetched";
+   }
+
+   PollingReader * PollExample = new PollingReader();
+
+   cout << "\nfetching polls...";
+   if ( PollExample->fetchPolls() )
    {
       cout << "\nfetched";
    }
