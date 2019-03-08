@@ -1,29 +1,16 @@
 ﻿# CMakeList.txt : Top-level CMake project file, do global configuration
 # and include sub-projects here.
-#
-cmake_minimum_required (VERSION 3.8)
+# ADAPTED FROM FUZZYLITE DEMO
+cmake_minimum_required (VERSION 3.10)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_BUILD_TYPE Debug)
 
 project ("FuzzyGEPredictor")
 
 # Include sub-projects.
 add_subdirectory ("FuzzyGEPredictor")
-
-#Some default policies and variables
-if (APPLE)
-	cmake_policy(SET CMP0042 NEW)
-endif()
-if (MSVC)
-	cmake_policy(SET CMP0054 NEW)
-endif()
-
-if(NOT CMAKE_VERBOSE_MAKEFILE)
-    set(CMAKE_VERBOSE_MAKEFILE false)
-endif()
-
-if( NOT CMAKE_BUILD_TYPE )
-    set( CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build, options are: None Debug Release RelWithDebInfo
-MinSizeRel." FORCE )
-endif()
 
 option(FL_BACKTRACE "Provide backtrace information in case of errors" ON)
 option(FL_STATIC "Statically link to fuzzylite libraries" ON)
@@ -70,28 +57,6 @@ endif()
 set(FL_LIBRARY_NAME  fuzzylite${FL_POSTFIX})
 find_library (FuzzyLiteLibrary ${FL_LIBRARY_NAME} HINTS ${FL_LIBRARY_DIR})
 
-if (MSVC AND CMAKE_CXX_COMPILER_VERSION VERSION_LESS 19)
-#C++11 not available before Visual Studio 2015
-    if (NOT FL_CPP98)
-        set(FL_CPP98 ON)
-    endif()
-endif()
-
-
-#if building using C++98
-if(FL_CPP98)
-    add_definitions(-DFL_CPP98)
-    if(NOT MSVC)
-        #Set C++98 by default in Clang and others
-        add_definitions(-std=c++98)
-    endif()
-else()
-    if(NOT MSVC)
-        #Set C++11 by default in Clang and others
-        add_definitions(-std=c++11)
-    endif()
-endif(FL_CPP98)
-
 #we add the definition of the building path to remove it when using macro FL_LOG
 add_definitions(-DFL_BUILD_PATH="${CMAKE_SOURCE_DIR}") #used to determine
 
@@ -125,9 +90,7 @@ set_target_properties(FuzzyGEPredictor PROPERTIES OUTPUT_NAME FuzzyElections IMP
 set_target_properties(FuzzyGEPredictor PROPERTIES DEBUG_POSTFIX d)
 
 
-
 message("=====================================")
-message("FuzzyLite Demo v6.0\n")
 message("FL_HOME=${FL_HOME}")
 message("FL_LIBRARY_NAME=${FL_LIBRARY_NAME}")
 message("FuzzyLiteLibrary=${FuzzyLiteLibrary}")

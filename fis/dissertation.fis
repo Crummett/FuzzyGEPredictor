@@ -1,0 +1,117 @@
+[System]
+Name='dissertation'
+Type='mamdani'
+Version=2.0
+NumInputs=10
+NumOutputs=6
+NumRules=24
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Output1]
+Name='Conservatives'
+Range=[-100 200]
+NumMFs=0
+
+[Output2]
+Name='Labour'
+Range=[-100 200]
+NumMFs=10
+MF1='Moderate_Losses1':'trimf',[-100 -100 -50]
+MF2='Moderate_Losses2':'trimf',[-100 -100 -50]
+MF3='Moderate_Losses':'trimf',[-100 -50 -10]
+MF4='Minor_Losses':'trimf',[-50 -10 -5]
+MF5='Tiny_Losses':'trimf',[-10 -5 0]
+MF6='Tiny_Gains':'trimf',[0 5 10]
+MF7='Minor_Gains':'trimf',[5 10 50]
+MF8='Moderate_Gains':'trimf',[10 50 100]
+MF9='Major_Gains':'trimf',[50 100 400]
+MF10='Huge_Gains':'trimf',[100 400 400]
+
+[Output3]
+Name='Lib Dems'
+Range=[-100 200]
+NumMFs=9
+MF1='Major_Losses':'trimf',[-100 -100 -50]
+MF2='Moderate_Losses':'trimf',[-100 -50 -10]
+MF3='Minor_Losses':'trimf',[-50 -10 -5]
+MF4='Tiny_Losses':'trimf',[-10 -5 0]
+MF5='Tiny_Gains':'trimf',[0 5 10]
+MF6='Minor_Gains':'trimf',[5 10 50]
+MF7='Moderate_Gains':'trimf',[10 50 100]
+MF8='Major_Gains':'trimf',[50 100 400]
+MF9='Huge_Gains':'trimf',[100 400 400]
+
+[Output4]
+Name='SNP'
+Range=[-100 200]
+NumMFs=10
+MF1='Moderate_Losses1':'trimf',[-100 -100 -50]
+MF2='Moderate_Losses2':'trimf',[-100 -100 -50]
+MF3='Moderate_Losses':'trimf',[-100 -50 -10]
+MF4='Minor_Losses':'trimf',[-50 -10 -5]
+MF5='Tiny_Losses':'trimf',[-10 -5 0]
+MF6='Tiny_Gains':'trimf',[0 5 10]
+MF7='Minor_Gains':'trimf',[5 10 50]
+MF8='Moderate_Gains':'trimf',[10 50 100]
+MF9='Major_Gains':'trimf',[50 100 400]
+MF10='Huge_Gains':'trimf',[100 400 400]
+
+[Output5]
+Name='UKIP'
+Range=[-100 200]
+NumMFs=10
+MF1='Moderate_Losses1':'trimf',[-100 -100 -50]
+MF2='Moderate_Losses2':'trimf',[-100 -100 -50]
+MF3='Moderate_Losses':'trimf',[-100 -50 -10]
+MF4='Minor_Losses':'trimf',[-50 -10 -5]
+MF5='Tiny_Losses':'trimf',[-10 -5 0]
+MF6='Tiny_Gains':'trimf',[0 5 10]
+MF7='Minor_Gains':'trimf',[5 10 50]
+MF8='Moderate_Gains':'trimf',[10 50 100]
+MF9='Major_Gains':'trimf',[50 100 400]
+MF10='Huge_Gains':'trimf',[100 400 400]
+
+[Output6]
+Name='Green'
+Range=[-100 200]
+NumMFs=10
+MF1='Moderate_Losses1':'trimf',[-100 -100 -50]
+MF2='Moderate_Losses2':'trimf',[-100 -100 -50]
+MF3='Moderate_Losses':'trimf',[-100 -50 -10]
+MF4='Minor_Losses':'trimf',[-50 -10 -5]
+MF5='Tiny_Losses':'trimf',[-10 -5 0]
+MF6='Tiny_Gains':'trimf',[0 5 10]
+MF7='Minor_Gains':'trimf',[5 10 50]
+MF8='Moderate_Gains':'trimf',[10 50 100]
+MF9='Major_Gains':'trimf',[50 100 400]
+MF10='Huge_Gains':'trimf',[100 400 400]
+
+[Rules]
+0 0 0 0 0 2 0 0 0 0, 0 6 0 10 10 10 (1) : 1
+0 0 0 0 0 3 0 0 0 0, 0 3 6 8 8 4 (1) : 1
+0 0 0 0 1 0 0 0 0 0, 0 4 6 4 10 9 (1) : 1
+0 0 0 0 3 0 0 0 0 0, 0 6 2 8 8 8 (1) : 1
+2 0 0 0 0 0 0 0 0 0, 0 4 6 4 10 9 (1) : 1
+5 0 0 0 0 0 0 0 0 0, 0 6 2 8 8 8 (1) : 1
+0 0 0 0 0 0 0 2 0 0, 0 4 6 4 10 9 (1) : 1
+0 0 0 0 0 0 0 1 0 0, 0 4 2 8 10 10 (1) : 1
+0 2 0 0 0 0 0 0 0 0, 0 3 7 5 8 8 (1) : 1
+0 3 0 0 0 0 0 0 0 0, 0 4 6 4 10 9 (1) : 1
+0 5 0 0 0 0 0 0 0 0, 0 6 2 10 10 10 (1) : 1
+0 0 0 0 0 0 0 0 2 0, 0 4 2 8 10 10 (1) : 1
+0 0 0 0 0 0 0 0 3 0, 0 4 6 4 10 9 (1) : 1
+0 0 0 0 0 0 0 0 5 0, 0 3 7 3 9 9 (1) : 1
+0 0 0 1 0 0 0 0 0 0, 0 4 2 8 10 10 (1) : 1
+0 0 0 3 0 0 0 0 0 0, 0 3 7 3 9 9 (1) : 1
+0 0 0 4 0 0 0 0 0 0, 0 4 6 4 10 9 (1) : 1
+0 0 0 0 0 0 3 0 0 0, 0 6 0 10 10 10 (1) : 1
+0 0 0 0 0 0 4 0 0 0, 0 4 2 9 10 10 (1) : 1
+0 0 0 0 0 0 0 0 0 4, 0 5 2 9 10 10 (1) : 1
+0 0 0 0 0 0 0 0 0 5, 0 3 6 6 10 8 (1) : 1
+0 0 5 0 0 0 0 0 0 0, 0 4 6 4 10 9 (1) : 1
+0 0 2 0 0 0 0 0 0 0, 0 3 7 3 8 9 (1) : 1
+0 0 4 0 0 0 0 0 0 0, 0 4 2 9 10 10 (1) : 1

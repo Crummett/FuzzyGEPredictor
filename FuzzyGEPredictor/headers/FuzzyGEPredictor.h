@@ -5,15 +5,22 @@
 
 #include <iostream>
 #include <fstream>
+#include <filesystem>
 
 #include "fl/Headers.h"
 
-using namespace fl;
-using namespace std;
+#include <windows.h>
 
-const enum Area
-{ // The constituency regions
-   AreaErr,
+using namespace std;
+using namespace fl;
+
+namespace fs = std::filesystem;
+
+
+// CONSTANTS
+const enum Region
+{ // Constituencies are organised into their EU constituencies
+   RegionError,
    NorthernIreland,
    Scotland,
    NorthEast,
@@ -22,42 +29,34 @@ const enum Area
    Wales,
    WestMidlands,
    EastMidlands,
-   Anglia,
-   SouthWest,
+   EastEngland,
+   SouthWest, // Includes Gibraltar
    London,
    SouthEast
 };
 
-const string saElectData[9]
-{ // Filepaths of the electoral data files
-   ".\\electdata\\electdata_1983.csv",
-   ".\\electdata\\electdata_1987.csv",
-   ".\\electdata\\electdata_1992ob.csv",
-   ".\\electdata\\electdata_1997.csv",
-   ".\\electdata\\electdata_2001ob.csv",
-   ".\\electdata\\electdata_2005ob.csv",
-   ".\\electdata\\electdata_2010.csv",
-   ".\\electdata\\electdata_2015.csv",
-   ".\\electdata\\electdata_2017.csv",
+const string saRegionNames[13]
+{ // Constituencies are organised into their EU constituencies
+   "Error",
+   "Northern Ireland",
+   "Scotland",
+   "North East England",
+   "North West England",
+   "Yorkshire and the Humber",
+   "Wales",
+   "West Midlands",
+   "East Midlands",
+   "East of England",
+   "South West England", // Includes Gibraltar
+   "London",
+   "South East England"
 };
 
-const string saPollData[1]
-{ // Filepaths of the polling data files, seperated by decade/question set
-   ".\\pollingdata\\polling.csv",
-};
+const string sElectDataDirectory = "./electdata/";
 
-const int ElectionYears[9]
-{ //Election years of the equivalent election data files
-   1983,
-   1987,
-   1992,
-   1997,
-   2001,
-   2005,
-   2010,
-   2015,
-   2017,
-};
+const string sPollDataDirectory = "./pollingdata/";
+
+const string sEngineSettings = "./enginesettings/";
 
 const enum Month
 {
@@ -76,7 +75,38 @@ const enum Month
    December
 };
 
-#include "ConstituencyArea.h"
-#include "PollingReader.h"
+const enum Parties
+{
+   Conservatives,
+   Labour,
+   LibDems,
+   Nationalist,
+   Minor,
+   Other,
+   UKIP,
+   Green,
 
-#include <windows.h>
+   NumOfParties = 8
+};
+
+const string saPartyNames[14]
+{
+   "Conservatives",
+   "Labour",
+   "Liberal Democrats",
+   "Nationalist",
+   "Minor",
+   "Other",
+   "UKIP",
+   "Green",
+   "SNP",
+   "Plaid Cymru",
+   "UUP",
+   "SDLP",
+   "DUP",
+   "Sinn Fein"
+};
+
+#include "ConstituencyRegion.h"
+#include "PollingReader.h"
+#include "Predictor.h"

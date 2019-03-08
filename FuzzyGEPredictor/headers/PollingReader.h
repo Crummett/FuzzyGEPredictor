@@ -3,8 +3,7 @@
 
 struct Poll
 {
-   int iYear;
-   Month eMonth;
+   int iPollDate;
 
    vector<float> fvPercentages;
 };
@@ -22,14 +21,12 @@ public:
    PollingReader();
    ~PollingReader();
 
-   bool fetchPolls();
+   bool fetchPolls( vector<PollSet> * vPollSet );
 
 private:
    Month convertMonth( string month );
    int convertYear( string year );
    float convertPercentString( string percent );
-
-   vector<PollSet> vPollSet;
 };
 
 

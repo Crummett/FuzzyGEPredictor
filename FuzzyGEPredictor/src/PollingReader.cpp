@@ -7,12 +7,18 @@ PollingReader::PollingReader()
 PollingReader::~PollingReader()
 {}
 
-bool PollingReader::fetchPolls()
+bool PollingReader::fetchPolls( vector<PollSet> * vPollSet )
 {
    // Fetch csv files and take their contents
-   for each ( string sPollingFile in saPollData )
+   vector < fs::path > svPollData;
+   for ( const auto & entry : fs::directory_iterator( sPollDataDirectory ) )
    {
-      ifstream currentFile( sPollingFile );
+      svPollData.push_back( entry );
+   }
+
+   for each ( fs::path pPollingFile in svPollData )
+   {
+      ifstream currentFile( pPollingFile );
       GEResult newResult;
 
       if ( currentFile.is_open() )
@@ -37,8 +43,8 @@ bool PollingReader::fetchPolls()
             // Extract questions
             if ( sStreamFirstLine.good() )
             {
-               sStreamFirstLine.ignore( 999, ';' );
-               sStreamFirstLine.ignore( 999, ';' );
+               sStreamFirstLine.ignore( 9999, ';' );
+               sStreamFirstLine.ignore( 9999, ';' );
 
                string substring;
 
@@ -50,7 +56,7 @@ bool PollingReader::fetchPolls()
                newPollSet.svQuestions = vsQuestions;
             }
 
-            int iTotalCols = vsQuestions.size() + 2; // Number of questions + Month and Year columns
+            unsigned int iTotalCols = vsQuestions.size() + 2; // Number of questions + Month and Year columns
 
             while ( not currentFile.eof() )
             {
@@ -73,10 +79,11 @@ bool PollingReader::fetchPolls()
                   {
                      Poll newPoll;
 
-                     newPoll.eMonth = convertMonth( pollDetails[0] );
-                     newPoll.iYear = convertYear( pollDetails[1] );
+                     newPoll.iPollDate = convertYear( pollDetails[1] ) * 10000;
+                     newPoll.iPollDate = newPoll.iPollDate + ( convertMonth( pollDetails[0] ) * 100 );
 
-                     for ( int percent = 2; percent < iTotalCols; percent++ )
+                     // Add the results. Start from column 2 to avoid year and month columns.
+                     for ( unsigned int percent = 2; percent < iTotalCols; percent++ )
                      {
                         newPoll.fvPercentages.push_back(
                            convertPercentString( pollDetails[percent] ) );
@@ -88,11 +95,11 @@ bool PollingReader::fetchPolls()
             }
          }
 
-         vPollSet.push_back( newPollSet );
+         vPollSet->push_back( newPollSet );
       }
       else
       {
-         cout << "\n" << sPollingFile << "not read";
+         cout << "\n" << pPollingFile << "not read";
          return false;
       }
 
@@ -102,7 +109,11 @@ bool PollingReader::fetchPolls()
 
 Month PollingReader::convertMonth( string month )
 {
-   transform( month.begin(), month.end(), month.begin(), ::toupper );
+   // Capitalise
+   transform( month.begin(),
+              month.end(),
+              month.begin(),
+              []( char c ) { return static_cast<char>( std::toupper( c ) ); } );
 
    if ( month == "JAN" )
    {

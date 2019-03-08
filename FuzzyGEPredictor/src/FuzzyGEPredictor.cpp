@@ -4,20 +4,8 @@
 
 int main()
 {
-   ConstituencyArea * Example = new ConstituencyArea( SouthEast );
+   Predictor * GEPredictor = new Predictor();
 
-   cout << "fetching constituencies...";
-   if ( Example->fetchResults() )
-   {
-      cout << "\nfetched";
-   }
-
-   PollingReader * PollExample = new PollingReader();
-
-   cout << "\nfetching polls...";
-   if ( PollExample->fetchPolls() )
-   {
-      cout << "\nfetched";
-   }
-
+   GEPredictor->Predict();
 }
+
