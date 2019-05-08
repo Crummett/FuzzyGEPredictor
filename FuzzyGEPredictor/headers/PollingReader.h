@@ -28,5 +28,3 @@ private:
    int convertYear( string year );
    float convertPercentString( string percent );
 };
-
-

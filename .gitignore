@@ -8,6 +8,9 @@
 /Win32
 /electdata
 /pollingdata
+/results
+/rulesets
+/fis
 
 *.vcxproj
 CMakeCache.txt

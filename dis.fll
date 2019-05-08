@@ -1,0 +1,1927 @@
+Engine: UxbridgeandSouthRuislip
+InputVariable: AgeingPopulationSocialCarefortheElderly
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: AIDS
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: AnimalWelfare
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: BirdFluFluPandemic
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: BSEBeef
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: CoalReviewPitClosures
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: CommonMarketEUEuropeSingleEuropeanCurrency
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: CountrysideRuralLife
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: CrimeLawandOrderViolenceVandalism
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: DefenceForeignAffairsInternationalTerrorism
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: DrugAbuse
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: EconomyEconomicSituation
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: EducationSchools
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: FootandMouthOutbreakFarmingCrisis
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: GermanReunificationEasternEurope
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: GMGMGeneticallyModifiedFoods
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: HeathrowThirdRunwayatHeathrow
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: Housing
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: ImmigrationRaceRelations
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: InflationPrices
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: LackofFaithinGovernment
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: InnerCities
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: LocalGovernmentCouncilTaxPollTax
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: LowPayMinimumWageFairWages
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: MoralityIndividualBehaviour
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: NationalisationGovernmentControlofInstitutions
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: NHSHospitalsHealthCare
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: NorthernIreland
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: NuclearPowerFuels
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: NuclearWeaponsNuclearWarDisarmament
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: PensionsSocialSecurity
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: PetrolPricesFuel
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: PollutionEnvironment
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: PoundExchangeRateValueofPound
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: PovertyInequality
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: Privatisation
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: PublicServicesinGeneral
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: ScottishWelshAssemblyDevolutionConstitutionalReform
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: Taxation
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: TradeUnionsStrikes
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: TransportPublicTransport
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: TsunamiSouthEastAsia
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: UnemploymentFactoryClosureLackOfIndustry
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: Other
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+InputVariable: DontKnow
+  enabled: true
+  range: 0.000 10.000
+  lock-range: true
+  term: top Trapezoid 5.000 7.500 10.000 10.000
+  term: medium Triangle 2.500 5.000 7.500
+  term: bottom Trapezoid 0.000 0.000 2.500 5.000
+OutputVariable: Conservatives
+  enabled: true
+  range: 30.000 -30.000
+  lock-range: false
+  aggregation: Maximum
+  defuzzifier: WeightedAverage Automatic
+  default: nan
+  lock-previous: false
+  term: massiveGain Ramp 0.000 30.000
+  term: hugeGain Ramp 0.000 22.000
+  term: bigGain Ramp 0.000 16.000
+  term: majorGain Ramp 0.000 10.000
+  term: minorGain Ramp 0.000 5.000
+  term: tinyGain Ramp 0.000 2.000
+  term: noChange Ramp 0.000 0.000
+  term: massiveLoss Ramp -30.000 0.000
+  term: hugeLoss Ramp -22.000 0.000
+  term: bigLoss Ramp -16.000 0.000
+  term: majorLoss Ramp -10.000 0.000
+  term: minorLoss Ramp -5.000 0.000
+  term: tinyLoss Ramp -2.000 0.000
+  term: left Ramp 1.000 0.000
+  term: right Ramp 0.000 1.000
+OutputVariable: Labour
+  enabled: true
+  range: 30.000 -30.000
+  lock-range: false
+  aggregation: Maximum
+  defuzzifier: WeightedAverage Automatic
+  default: nan
+  lock-previous: false
+  term: massiveGain Ramp 0.000 30.000
+  term: hugeGain Ramp 0.000 22.000
+  term: bigGain Ramp 0.000 16.000
+  term: majorGain Ramp 0.000 10.000
+  term: minorGain Ramp 0.000 5.000
+  term: tinyGain Ramp 0.000 2.000
+  term: noChange Ramp 0.000 0.000
+  term: massiveLoss Ramp -30.000 0.000
+  term: hugeLoss Ramp -22.000 0.000
+  term: bigLoss Ramp -16.000 0.000
+  term: majorLoss Ramp -10.000 0.000
+  term: minorLoss Ramp -5.000 0.000
+  term: tinyLoss Ramp -2.000 0.000
+  term: left Ramp 1.000 0.000
+  term: right Ramp 0.000 1.000
+OutputVariable: LibDems
+  enabled: true
+  range: 30.000 -30.000
+  lock-range: false
+  aggregation: Maximum
+  defuzzifier: WeightedAverage Automatic
+  default: nan
+  lock-previous: false
+  term: massiveGain Ramp 0.000 30.000
+  term: hugeGain Ramp 0.000 22.000
+  term: bigGain Ramp 0.000 16.000
+  term: majorGain Ramp 0.000 10.000
+  term: minorGain Ramp 0.000 5.000
+  term: tinyGain Ramp 0.000 2.000
+  term: noChange Ramp 0.000 0.000
+  term: massiveLoss Ramp -30.000 0.000
+  term: hugeLoss Ramp -22.000 0.000
+  term: bigLoss Ramp -16.000 0.000
+  term: majorLoss Ramp -10.000 0.000
+  term: minorLoss Ramp -5.000 0.000
+  term: tinyLoss Ramp -2.000 0.000
+  term: left Ramp 1.000 0.000
+  term: right Ramp 0.000 1.000
+OutputVariable: Nationalist
+  enabled: true
+  range: 30.000 -30.000
+  lock-range: false
+  aggregation: Maximum
+  defuzzifier: WeightedAverage Automatic
+  default: nan
+  lock-previous: false
+  term: massiveGain Ramp 0.000 30.000
+  term: hugeGain Ramp 0.000 22.000
+  term: bigGain Ramp 0.000 16.000
+  term: majorGain Ramp 0.000 10.000
+  term: minorGain Ramp 0.000 5.000
+  term: tinyGain Ramp 0.000 2.000
+  term: noChange Ramp 0.000 0.000
+  term: massiveLoss Ramp -30.000 0.000
+  term: hugeLoss Ramp -22.000 0.000
+  term: bigLoss Ramp -16.000 0.000
+  term: majorLoss Ramp -10.000 0.000
+  term: minorLoss Ramp -5.000 0.000
+  term: tinyLoss Ramp -2.000 0.000
+  term: left Ramp 1.000 0.000
+  term: right Ramp 0.000 1.000
+OutputVariable: Minor
+  enabled: true
+  range: 30.000 -30.000
+  lock-range: false
+  aggregation: Maximum
+  defuzzifier: WeightedAverage Automatic
+  default: nan
+  lock-previous: false
+  term: massiveGain Ramp 0.000 30.000
+  term: hugeGain Ramp 0.000 22.000
+  term: bigGain Ramp 0.000 16.000
+  term: majorGain Ramp 0.000 10.000
+  term: minorGain Ramp 0.000 5.000
+  term: tinyGain Ramp 0.000 2.000
+  term: noChange Ramp 0.000 0.000
+  term: massiveLoss Ramp -30.000 0.000
+  term: hugeLoss Ramp -22.000 0.000
+  term: bigLoss Ramp -16.000 0.000
+  term: majorLoss Ramp -10.000 0.000
+  term: minorLoss Ramp -5.000 0.000
+  term: tinyLoss Ramp -2.000 0.000
+  term: left Ramp 1.000 0.000
+  term: right Ramp 0.000 1.000
+OutputVariable: Other
+  enabled: true
+  range: 30.000 -30.000
+  lock-range: false
+  aggregation: Maximum
+  defuzzifier: WeightedAverage Automatic
+  default: nan
+  lock-previous: false
+  term: massiveGain Ramp 0.000 30.000
+  term: hugeGain Ramp 0.000 22.000
+  term: bigGain Ramp 0.000 16.000
+  term: majorGain Ramp 0.000 10.000
+  term: minorGain Ramp 0.000 5.000
+  term: tinyGain Ramp 0.000 2.000
+  term: noChange Ramp 0.000 0.000
+  term: massiveLoss Ramp -30.000 0.000
+  term: hugeLoss Ramp -22.000 0.000
+  term: bigLoss Ramp -16.000 0.000
+  term: majorLoss Ramp -10.000 0.000
+  term: minorLoss Ramp -5.000 0.000
+  term: tinyLoss Ramp -2.000 0.000
+  term: left Ramp 1.000 0.000
+  term: right Ramp 0.000 1.000
+OutputVariable: UKIP
+  enabled: true
+  range: 30.000 -30.000
+  lock-range: false
+  aggregation: Maximum
+  defuzzifier: WeightedAverage Automatic
+  default: nan
+  lock-previous: false
+  term: massiveGain Ramp 0.000 30.000
+  term: hugeGain Ramp 0.000 22.000
+  term: bigGain Ramp 0.000 16.000
+  term: majorGain Ramp 0.000 10.000
+  term: minorGain Ramp 0.000 5.000
+  term: tinyGain Ramp 0.000 2.000
+  term: noChange Ramp 0.000 0.000
+  term: massiveLoss Ramp -30.000 0.000
+  term: hugeLoss Ramp -22.000 0.000
+  term: bigLoss Ramp -16.000 0.000
+  term: majorLoss Ramp -10.000 0.000
+  term: minorLoss Ramp -5.000 0.000
+  term: tinyLoss Ramp -2.000 0.000
+  term: left Ramp 1.000 0.000
+  term: right Ramp 0.000 1.000
+OutputVariable: Green
+  enabled: true
+  range: 30.000 -30.000
+  lock-range: false
+  aggregation: Maximum
+  defuzzifier: WeightedAverage Automatic
+  default: nan
+  lock-previous: false
+  term: massiveGain Ramp 0.000 30.000
+  term: hugeGain Ramp 0.000 22.000
+  term: bigGain Ramp 0.000 16.000
+  term: majorGain Ramp 0.000 10.000
+  term: minorGain Ramp 0.000 5.000
+  term: tinyGain Ramp 0.000 2.000
+  term: noChange Ramp 0.000 0.000
+  term: massiveLoss Ramp -30.000 0.000
+  term: hugeLoss Ramp -22.000 0.000
+  term: bigLoss Ramp -16.000 0.000
+  term: majorLoss Ramp -10.000 0.000
+  term: minorLoss Ramp -5.000 0.000
+  term: tinyLoss Ramp -2.000 0.000
+  term: left Ramp 1.000 0.000
+  term: right Ramp 0.000 1.000
+RuleBlock: UxbridgeandSouthRuislipRules19870611
+  enabled: true
+  conjunction: Minimum
+  disjunction: AlgebraicSum
+  implication: EinsteinProduct
+  activation: General
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Conservatives is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Labour is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then LibDems is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Nationalist is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Minor is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is top then Conservatives is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is top then Labour is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is top then LibDems is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is top then Nationalist is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is top then Minor is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Conservatives is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Labour is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then LibDems is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Nationalist is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Minor is noChange
+  rule: if NHSHospitalsHealthCare is medium then Conservatives is noChange
+  rule: if NHSHospitalsHealthCare is medium then Labour is noChange
+  rule: if NHSHospitalsHealthCare is medium then LibDems is noChange
+  rule: if NHSHospitalsHealthCare is medium then Nationalist is noChange
+  rule: if NHSHospitalsHealthCare is medium then Minor is noChange
+  rule: if EducationSchools is medium then Conservatives is noChange
+  rule: if EducationSchools is medium then Labour is noChange
+  rule: if EducationSchools is medium then LibDems is noChange
+  rule: if EducationSchools is medium then Nationalist is noChange
+  rule: if EducationSchools is medium then Minor is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Conservatives is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Labour is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then LibDems is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Nationalist is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Minor is noChange
+  rule: if PensionsSocialSecurity is medium then Conservatives is noChange
+  rule: if PensionsSocialSecurity is medium then Labour is noChange
+  rule: if PensionsSocialSecurity is medium then LibDems is noChange
+  rule: if PensionsSocialSecurity is medium then Nationalist is noChange
+  rule: if PensionsSocialSecurity is medium then Minor is noChange
+  rule: if Housing is medium then Conservatives is noChange
+  rule: if Housing is medium then Labour is noChange
+  rule: if Housing is medium then LibDems is noChange
+  rule: if Housing is medium then Nationalist is noChange
+  rule: if Housing is medium then Minor is noChange
+  rule: if EconomyEconomicSituation is medium then Conservatives is noChange
+  rule: if EconomyEconomicSituation is medium then Labour is noChange
+  rule: if EconomyEconomicSituation is medium then LibDems is noChange
+  rule: if EconomyEconomicSituation is medium then Nationalist is noChange
+  rule: if EconomyEconomicSituation is medium then Minor is noChange
+  rule: if InflationPrices is bottom then Conservatives is noChange
+  rule: if InflationPrices is bottom then Labour is noChange
+  rule: if InflationPrices is bottom then LibDems is noChange
+  rule: if InflationPrices is bottom then Nationalist is noChange
+  rule: if InflationPrices is bottom then Minor is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is bottom then Conservatives is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is bottom then Labour is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is bottom then LibDems is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is bottom then Nationalist is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is bottom then Minor is noChange
+  rule: if NorthernIreland is bottom then Conservatives is noChange
+  rule: if NorthernIreland is bottom then Labour is noChange
+  rule: if NorthernIreland is bottom then LibDems is noChange
+  rule: if NorthernIreland is bottom then Nationalist is noChange
+  rule: if NorthernIreland is bottom then Minor is noChange
+  rule: if TradeUnionsStrikes is bottom then Conservatives is noChange
+  rule: if TradeUnionsStrikes is bottom then Labour is noChange
+  rule: if TradeUnionsStrikes is bottom then LibDems is noChange
+  rule: if TradeUnionsStrikes is bottom then Nationalist is noChange
+  rule: if TradeUnionsStrikes is bottom then Minor is noChange
+RuleBlock: UxbridgeandSouthRuislipRules19920409
+  enabled: true
+  conjunction: Minimum
+  disjunction: AlgebraicSum
+  implication: EinsteinProduct
+  activation: General
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Conservatives is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Labour is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then LibDems is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Nationalist is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Minor is noChange
+  rule: if NHSHospitalsHealthCare is top then Conservatives is noChange
+  rule: if NHSHospitalsHealthCare is top then Labour is noChange
+  rule: if NHSHospitalsHealthCare is top then LibDems is noChange
+  rule: if NHSHospitalsHealthCare is top then Nationalist is noChange
+  rule: if NHSHospitalsHealthCare is top then Minor is noChange
+  rule: if EconomyEconomicSituation is top then Conservatives is noChange
+  rule: if EconomyEconomicSituation is top then Labour is noChange
+  rule: if EconomyEconomicSituation is top then LibDems is noChange
+  rule: if EconomyEconomicSituation is top then Nationalist is noChange
+  rule: if EconomyEconomicSituation is top then Minor is noChange
+  rule: if EducationSchools is medium then Conservatives is noChange
+  rule: if EducationSchools is medium then Labour is noChange
+  rule: if EducationSchools is medium then LibDems is noChange
+  rule: if EducationSchools is medium then Nationalist is noChange
+  rule: if EducationSchools is medium then Minor is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Conservatives is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Labour is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is medium then LibDems is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Nationalist is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Minor is noChange
+  rule: if Housing is medium then Conservatives is noChange
+  rule: if Housing is medium then Labour is noChange
+  rule: if Housing is medium then LibDems is noChange
+  rule: if Housing is medium then Nationalist is noChange
+  rule: if Housing is medium then Minor is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Conservatives is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Labour is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then LibDems is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Nationalist is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Minor is noChange
+  rule: if InflationPrices is medium then Conservatives is noChange
+  rule: if InflationPrices is medium then Labour is noChange
+  rule: if InflationPrices is medium then LibDems is noChange
+  rule: if InflationPrices is medium then Nationalist is noChange
+  rule: if InflationPrices is medium then Minor is noChange
+  rule: if PensionsSocialSecurity is medium then Conservatives is noChange
+  rule: if PensionsSocialSecurity is medium then Labour is noChange
+  rule: if PensionsSocialSecurity is medium then LibDems is noChange
+  rule: if PensionsSocialSecurity is medium then Nationalist is noChange
+  rule: if PensionsSocialSecurity is medium then Minor is noChange
+  rule: if PollutionEnvironment is medium then Conservatives is noChange
+  rule: if PollutionEnvironment is medium then Labour is noChange
+  rule: if PollutionEnvironment is medium then LibDems is noChange
+  rule: if PollutionEnvironment is medium then Nationalist is noChange
+  rule: if PollutionEnvironment is medium then Minor is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then Conservatives is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then Labour is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then LibDems is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then Nationalist is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then Minor is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is bottom then Conservatives is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is bottom then Labour is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is bottom then LibDems is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is bottom then Nationalist is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is bottom then Minor is noChange
+  rule: if NorthernIreland is bottom then Conservatives is noChange
+  rule: if NorthernIreland is bottom then Labour is noChange
+  rule: if NorthernIreland is bottom then LibDems is noChange
+  rule: if NorthernIreland is bottom then Nationalist is noChange
+  rule: if NorthernIreland is bottom then Minor is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Conservatives is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Labour is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then LibDems is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Nationalist is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Minor is noChange
+RuleBlock: UxbridgeandSouthRuislipRules19970501
+  enabled: true
+  conjunction: Minimum
+  disjunction: AlgebraicSum
+  implication: EinsteinProduct
+  activation: General
+  rule: if NHSHospitalsHealthCare is top then Conservatives is noChange
+  rule: if NHSHospitalsHealthCare is top then Labour is noChange
+  rule: if NHSHospitalsHealthCare is top then LibDems is noChange
+  rule: if NHSHospitalsHealthCare is top then Nationalist is noChange
+  rule: if NHSHospitalsHealthCare is top then Minor is noChange
+  rule: if EducationSchools is top then Conservatives is noChange
+  rule: if EducationSchools is top then Labour is noChange
+  rule: if EducationSchools is top then LibDems is noChange
+  rule: if EducationSchools is top then Nationalist is noChange
+  rule: if EducationSchools is top then Minor is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Conservatives is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Labour is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then LibDems is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Nationalist is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Minor is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Conservatives is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Labour is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then LibDems is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Nationalist is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Minor is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Conservatives is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Labour is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then LibDems is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Nationalist is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Minor is noChange
+  rule: if EconomyEconomicSituation is top then Conservatives is noChange
+  rule: if EconomyEconomicSituation is top then Labour is noChange
+  rule: if EconomyEconomicSituation is top then LibDems is noChange
+  rule: if EconomyEconomicSituation is top then Nationalist is noChange
+  rule: if EconomyEconomicSituation is top then Minor is noChange
+  rule: if PensionsSocialSecurity is medium then Conservatives is noChange
+  rule: if PensionsSocialSecurity is medium then Labour is noChange
+  rule: if PensionsSocialSecurity is medium then LibDems is noChange
+  rule: if PensionsSocialSecurity is medium then Nationalist is noChange
+  rule: if PensionsSocialSecurity is medium then Minor is noChange
+  rule: if Housing is medium then Conservatives is noChange
+  rule: if Housing is medium then Labour is noChange
+  rule: if Housing is medium then LibDems is noChange
+  rule: if Housing is medium then Nationalist is noChange
+  rule: if Housing is medium then Minor is noChange
+  rule: if MoralityIndividualBehaviour is medium then Conservatives is noChange
+  rule: if MoralityIndividualBehaviour is medium then Labour is noChange
+  rule: if MoralityIndividualBehaviour is medium then LibDems is noChange
+  rule: if MoralityIndividualBehaviour is medium then Nationalist is noChange
+  rule: if MoralityIndividualBehaviour is medium then Minor is noChange
+  rule: if PollutionEnvironment is medium then Conservatives is noChange
+  rule: if PollutionEnvironment is medium then Labour is noChange
+  rule: if PollutionEnvironment is medium then LibDems is noChange
+  rule: if PollutionEnvironment is medium then Nationalist is noChange
+  rule: if PollutionEnvironment is medium then Minor is noChange
+  rule: if InflationPrices is medium then Conservatives is noChange
+  rule: if InflationPrices is medium then Labour is noChange
+  rule: if InflationPrices is medium then LibDems is noChange
+  rule: if InflationPrices is medium then Nationalist is noChange
+  rule: if InflationPrices is medium then Minor is noChange
+  rule: if Taxation is medium then Conservatives is noChange
+  rule: if Taxation is medium then Labour is noChange
+  rule: if Taxation is medium then LibDems is noChange
+  rule: if Taxation is medium then Nationalist is noChange
+  rule: if Taxation is medium then Minor is noChange
+  rule: if DrugAbuse is medium then Conservatives is noChange
+  rule: if DrugAbuse is medium then Labour is noChange
+  rule: if DrugAbuse is medium then LibDems is noChange
+  rule: if DrugAbuse is medium then Nationalist is noChange
+  rule: if DrugAbuse is medium then Minor is noChange
+  rule: if ImmigrationRaceRelations is medium then Conservatives is noChange
+  rule: if ImmigrationRaceRelations is medium then Labour is noChange
+  rule: if ImmigrationRaceRelations is medium then LibDems is noChange
+  rule: if ImmigrationRaceRelations is medium then Nationalist is noChange
+  rule: if ImmigrationRaceRelations is medium then Minor is noChange
+  rule: if BSEBeef is medium then Conservatives is noChange
+  rule: if BSEBeef is medium then Labour is noChange
+  rule: if BSEBeef is medium then LibDems is noChange
+  rule: if BSEBeef is medium then Nationalist is noChange
+  rule: if BSEBeef is medium then Minor is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Conservatives is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Labour is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then LibDems is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Nationalist is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Minor is noChange
+  rule: if NorthernIreland is medium then Conservatives is noChange
+  rule: if NorthernIreland is medium then Labour is noChange
+  rule: if NorthernIreland is medium then LibDems is noChange
+  rule: if NorthernIreland is medium then Nationalist is noChange
+  rule: if NorthernIreland is medium then Minor is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Conservatives is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Labour is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then LibDems is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Nationalist is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Minor is noChange
+  rule: if Privatisation is medium then Conservatives is noChange
+  rule: if Privatisation is medium then Labour is noChange
+  rule: if Privatisation is medium then LibDems is noChange
+  rule: if Privatisation is medium then Nationalist is noChange
+  rule: if Privatisation is medium then Minor is noChange
+  rule: if AIDS is bottom then Conservatives is noChange
+  rule: if AIDS is bottom then Labour is noChange
+  rule: if AIDS is bottom then LibDems is noChange
+  rule: if AIDS is bottom then Nationalist is noChange
+  rule: if AIDS is bottom then Minor is noChange
+  rule: if AnimalWelfare is bottom then Conservatives is noChange
+  rule: if AnimalWelfare is bottom then Labour is noChange
+  rule: if AnimalWelfare is bottom then LibDems is noChange
+  rule: if AnimalWelfare is bottom then Nationalist is noChange
+  rule: if AnimalWelfare is bottom then Minor is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Conservatives is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Labour is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then LibDems is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Nationalist is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Minor is noChange
+  rule: if NuclearPowerFuels is bottom then Conservatives is noChange
+  rule: if NuclearPowerFuels is bottom then Labour is noChange
+  rule: if NuclearPowerFuels is bottom then LibDems is noChange
+  rule: if NuclearPowerFuels is bottom then Nationalist is noChange
+  rule: if NuclearPowerFuels is bottom then Minor is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Conservatives is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Labour is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then LibDems is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Nationalist is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Minor is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Conservatives is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Labour is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then LibDems is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Nationalist is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Minor is noChange
+  rule: if TradeUnionsStrikes is bottom then Conservatives is noChange
+  rule: if TradeUnionsStrikes is bottom then Labour is noChange
+  rule: if TradeUnionsStrikes is bottom then LibDems is noChange
+  rule: if TradeUnionsStrikes is bottom then Nationalist is noChange
+  rule: if TradeUnionsStrikes is bottom then Minor is noChange
+RuleBlock: UxbridgeandSouthRuislipRules20010607
+  enabled: true
+  conjunction: Minimum
+  disjunction: AlgebraicSum
+  implication: EinsteinProduct
+  activation: General
+  rule: if NHSHospitalsHealthCare is top then Conservatives is noChange
+  rule: if NHSHospitalsHealthCare is top then Labour is noChange
+  rule: if NHSHospitalsHealthCare is top then LibDems is noChange
+  rule: if NHSHospitalsHealthCare is top then Nationalist is noChange
+  rule: if NHSHospitalsHealthCare is top then Minor is noChange
+  rule: if EducationSchools is top then Conservatives is noChange
+  rule: if EducationSchools is top then Labour is noChange
+  rule: if EducationSchools is top then LibDems is noChange
+  rule: if EducationSchools is top then Nationalist is noChange
+  rule: if EducationSchools is top then Minor is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Conservatives is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Labour is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then LibDems is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Nationalist is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Minor is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is top then Conservatives is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is top then Labour is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is top then LibDems is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is top then Nationalist is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is top then Minor is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Conservatives is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Labour is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then LibDems is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Nationalist is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Minor is noChange
+  rule: if ImmigrationRaceRelations is top then Conservatives is noChange
+  rule: if ImmigrationRaceRelations is top then Labour is noChange
+  rule: if ImmigrationRaceRelations is top then LibDems is noChange
+  rule: if ImmigrationRaceRelations is top then Nationalist is noChange
+  rule: if ImmigrationRaceRelations is top then Minor is noChange
+  rule: if Other is top then Conservatives is noChange
+  rule: if Other is top then Labour is noChange
+  rule: if Other is top then LibDems is noChange
+  rule: if Other is top then Nationalist is noChange
+  rule: if Other is top then Minor is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Conservatives is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Labour is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then LibDems is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Nationalist is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Minor is noChange
+  rule: if EconomyEconomicSituation is medium then Conservatives is noChange
+  rule: if EconomyEconomicSituation is medium then Labour is noChange
+  rule: if EconomyEconomicSituation is medium then LibDems is noChange
+  rule: if EconomyEconomicSituation is medium then Nationalist is noChange
+  rule: if EconomyEconomicSituation is medium then Minor is noChange
+  rule: if PensionsSocialSecurity is medium then Conservatives is noChange
+  rule: if PensionsSocialSecurity is medium then Labour is noChange
+  rule: if PensionsSocialSecurity is medium then LibDems is noChange
+  rule: if PensionsSocialSecurity is medium then Nationalist is noChange
+  rule: if PensionsSocialSecurity is medium then Minor is noChange
+  rule: if DrugAbuse is medium then Conservatives is noChange
+  rule: if DrugAbuse is medium then Labour is noChange
+  rule: if DrugAbuse is medium then LibDems is noChange
+  rule: if DrugAbuse is medium then Nationalist is noChange
+  rule: if DrugAbuse is medium then Minor is noChange
+  rule: if TransportPublicTransport is medium then Conservatives is noChange
+  rule: if TransportPublicTransport is medium then Labour is noChange
+  rule: if TransportPublicTransport is medium then LibDems is noChange
+  rule: if TransportPublicTransport is medium then Nationalist is noChange
+  rule: if TransportPublicTransport is medium then Minor is noChange
+  rule: if PovertyInequality is medium then Conservatives is noChange
+  rule: if PovertyInequality is medium then Labour is noChange
+  rule: if PovertyInequality is medium then LibDems is noChange
+  rule: if PovertyInequality is medium then Nationalist is noChange
+  rule: if PovertyInequality is medium then Minor is noChange
+  rule: if Housing is medium then Conservatives is noChange
+  rule: if Housing is medium then Labour is noChange
+  rule: if Housing is medium then LibDems is noChange
+  rule: if Housing is medium then Nationalist is noChange
+  rule: if Housing is medium then Minor is noChange
+  rule: if PetrolPricesFuel is medium then Conservatives is noChange
+  rule: if PetrolPricesFuel is medium then Labour is noChange
+  rule: if PetrolPricesFuel is medium then LibDems is noChange
+  rule: if PetrolPricesFuel is medium then Nationalist is noChange
+  rule: if PetrolPricesFuel is medium then Minor is noChange
+  rule: if PollutionEnvironment is medium then Conservatives is noChange
+  rule: if PollutionEnvironment is medium then Labour is noChange
+  rule: if PollutionEnvironment is medium then LibDems is noChange
+  rule: if PollutionEnvironment is medium then Nationalist is noChange
+  rule: if PollutionEnvironment is medium then Minor is noChange
+  rule: if DontKnow is medium then Conservatives is noChange
+  rule: if DontKnow is medium then Labour is noChange
+  rule: if DontKnow is medium then LibDems is noChange
+  rule: if DontKnow is medium then Nationalist is noChange
+  rule: if DontKnow is medium then Minor is noChange
+  rule: if Taxation is medium then Conservatives is noChange
+  rule: if Taxation is medium then Labour is noChange
+  rule: if Taxation is medium then LibDems is noChange
+  rule: if Taxation is medium then Nationalist is noChange
+  rule: if Taxation is medium then Minor is noChange
+  rule: if MoralityIndividualBehaviour is medium then Conservatives is noChange
+  rule: if MoralityIndividualBehaviour is medium then Labour is noChange
+  rule: if MoralityIndividualBehaviour is medium then LibDems is noChange
+  rule: if MoralityIndividualBehaviour is medium then Nationalist is noChange
+  rule: if MoralityIndividualBehaviour is medium then Minor is noChange
+  rule: if BSEBeef is medium then Conservatives is noChange
+  rule: if BSEBeef is medium then Labour is noChange
+  rule: if BSEBeef is medium then LibDems is noChange
+  rule: if BSEBeef is medium then Nationalist is noChange
+  rule: if BSEBeef is medium then Minor is noChange
+  rule: if CountrysideRuralLife is medium then Conservatives is noChange
+  rule: if CountrysideRuralLife is medium then Labour is noChange
+  rule: if CountrysideRuralLife is medium then LibDems is noChange
+  rule: if CountrysideRuralLife is medium then Nationalist is noChange
+  rule: if CountrysideRuralLife is medium then Minor is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Conservatives is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Labour is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then LibDems is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Nationalist is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is medium then Minor is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Conservatives is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Labour is noChange
+  rule: if LowPayMinimumWageFairWages is medium then LibDems is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Nationalist is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Minor is noChange
+  rule: if AnimalWelfare is medium then Conservatives is noChange
+  rule: if AnimalWelfare is medium then Labour is noChange
+  rule: if AnimalWelfare is medium then LibDems is noChange
+  rule: if AnimalWelfare is medium then Nationalist is noChange
+  rule: if AnimalWelfare is medium then Minor is noChange
+  rule: if InflationPrices is medium then Conservatives is noChange
+  rule: if InflationPrices is medium then Labour is noChange
+  rule: if InflationPrices is medium then LibDems is noChange
+  rule: if InflationPrices is medium then Nationalist is noChange
+  rule: if InflationPrices is medium then Minor is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Conservatives is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Labour is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then LibDems is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Nationalist is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Minor is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then Conservatives is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then Labour is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then LibDems is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then Nationalist is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is bottom then Minor is noChange
+  rule: if NorthernIreland is bottom then Conservatives is noChange
+  rule: if NorthernIreland is bottom then Labour is noChange
+  rule: if NorthernIreland is bottom then LibDems is noChange
+  rule: if NorthernIreland is bottom then Nationalist is noChange
+  rule: if NorthernIreland is bottom then Minor is noChange
+  rule: if AIDS is bottom then Conservatives is noChange
+  rule: if AIDS is bottom then Labour is noChange
+  rule: if AIDS is bottom then LibDems is noChange
+  rule: if AIDS is bottom then Nationalist is noChange
+  rule: if AIDS is bottom then Minor is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Conservatives is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Labour is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then LibDems is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Nationalist is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Minor is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Conservatives is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Labour is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then LibDems is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Nationalist is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Minor is noChange
+  rule: if Privatisation is bottom then Conservatives is noChange
+  rule: if Privatisation is bottom then Labour is noChange
+  rule: if Privatisation is bottom then LibDems is noChange
+  rule: if Privatisation is bottom then Nationalist is noChange
+  rule: if Privatisation is bottom then Minor is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Conservatives is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Labour is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then LibDems is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Nationalist is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Minor is noChange
+  rule: if TradeUnionsStrikes is bottom then Conservatives is noChange
+  rule: if TradeUnionsStrikes is bottom then Labour is noChange
+  rule: if TradeUnionsStrikes is bottom then LibDems is noChange
+  rule: if TradeUnionsStrikes is bottom then Nationalist is noChange
+  rule: if TradeUnionsStrikes is bottom then Minor is noChange
+RuleBlock: UxbridgeandSouthRuislipRules20050505
+  enabled: true
+  conjunction: Minimum
+  disjunction: AlgebraicSum
+  implication: EinsteinProduct
+  activation: General
+  rule: if NHSHospitalsHealthCare is top then Conservatives is noChange
+  rule: if NHSHospitalsHealthCare is top then Labour is noChange
+  rule: if NHSHospitalsHealthCare is top then LibDems is noChange
+  rule: if NHSHospitalsHealthCare is top then Nationalist is noChange
+  rule: if NHSHospitalsHealthCare is top then Minor is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Conservatives is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Labour is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then LibDems is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Nationalist is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is top then Minor is noChange
+  rule: if ImmigrationRaceRelations is top then Conservatives is noChange
+  rule: if ImmigrationRaceRelations is top then Labour is noChange
+  rule: if ImmigrationRaceRelations is top then LibDems is noChange
+  rule: if ImmigrationRaceRelations is top then Nationalist is noChange
+  rule: if ImmigrationRaceRelations is top then Minor is noChange
+  rule: if EducationSchools is top then Conservatives is noChange
+  rule: if EducationSchools is top then Labour is noChange
+  rule: if EducationSchools is top then LibDems is noChange
+  rule: if EducationSchools is top then Nationalist is noChange
+  rule: if EducationSchools is top then Minor is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Conservatives is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Labour is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then LibDems is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Nationalist is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Minor is noChange
+  rule: if Other is top then Conservatives is noChange
+  rule: if Other is top then Labour is noChange
+  rule: if Other is top then LibDems is noChange
+  rule: if Other is top then Nationalist is noChange
+  rule: if Other is top then Minor is noChange
+  rule: if PensionsSocialSecurity is top then Conservatives is noChange
+  rule: if PensionsSocialSecurity is top then Labour is noChange
+  rule: if PensionsSocialSecurity is top then LibDems is noChange
+  rule: if PensionsSocialSecurity is top then Nationalist is noChange
+  rule: if PensionsSocialSecurity is top then Minor is noChange
+  rule: if EconomyEconomicSituation is top then Conservatives is noChange
+  rule: if EconomyEconomicSituation is top then Labour is noChange
+  rule: if EconomyEconomicSituation is top then LibDems is noChange
+  rule: if EconomyEconomicSituation is top then Nationalist is noChange
+  rule: if EconomyEconomicSituation is top then Minor is noChange
+  rule: if Housing is top then Conservatives is noChange
+  rule: if Housing is top then Labour is noChange
+  rule: if Housing is top then LibDems is noChange
+  rule: if Housing is top then Nationalist is noChange
+  rule: if Housing is top then Minor is noChange
+  rule: if MoralityIndividualBehaviour is medium then Conservatives is noChange
+  rule: if MoralityIndividualBehaviour is medium then Labour is noChange
+  rule: if MoralityIndividualBehaviour is medium then LibDems is noChange
+  rule: if MoralityIndividualBehaviour is medium then Nationalist is noChange
+  rule: if MoralityIndividualBehaviour is medium then Minor is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Conservatives is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Labour is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then LibDems is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Nationalist is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Minor is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Conservatives is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Labour is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then LibDems is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Nationalist is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Minor is noChange
+  rule: if Taxation is medium then Conservatives is noChange
+  rule: if Taxation is medium then Labour is noChange
+  rule: if Taxation is medium then LibDems is noChange
+  rule: if Taxation is medium then Nationalist is noChange
+  rule: if Taxation is medium then Minor is noChange
+  rule: if DrugAbuse is medium then Conservatives is noChange
+  rule: if DrugAbuse is medium then Labour is noChange
+  rule: if DrugAbuse is medium then LibDems is noChange
+  rule: if DrugAbuse is medium then Nationalist is noChange
+  rule: if DrugAbuse is medium then Minor is noChange
+  rule: if PovertyInequality is medium then Conservatives is noChange
+  rule: if PovertyInequality is medium then Labour is noChange
+  rule: if PovertyInequality is medium then LibDems is noChange
+  rule: if PovertyInequality is medium then Nationalist is noChange
+  rule: if PovertyInequality is medium then Minor is noChange
+  rule: if PollutionEnvironment is medium then Conservatives is noChange
+  rule: if PollutionEnvironment is medium then Labour is noChange
+  rule: if PollutionEnvironment is medium then LibDems is noChange
+  rule: if PollutionEnvironment is medium then Nationalist is noChange
+  rule: if PollutionEnvironment is medium then Minor is noChange
+  rule: if TransportPublicTransport is medium then Conservatives is noChange
+  rule: if TransportPublicTransport is medium then Labour is noChange
+  rule: if TransportPublicTransport is medium then LibDems is noChange
+  rule: if TransportPublicTransport is medium then Nationalist is noChange
+  rule: if TransportPublicTransport is medium then Minor is noChange
+  rule: if DontKnow is medium then Conservatives is noChange
+  rule: if DontKnow is medium then Labour is noChange
+  rule: if DontKnow is medium then LibDems is noChange
+  rule: if DontKnow is medium then Nationalist is noChange
+  rule: if DontKnow is medium then Minor is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Conservatives is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Labour is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then LibDems is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Nationalist is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Minor is noChange
+  rule: if PublicServicesinGeneral is medium then Conservatives is noChange
+  rule: if PublicServicesinGeneral is medium then Labour is noChange
+  rule: if PublicServicesinGeneral is medium then LibDems is noChange
+  rule: if PublicServicesinGeneral is medium then Nationalist is noChange
+  rule: if PublicServicesinGeneral is medium then Minor is noChange
+  rule: if InflationPrices is medium then Conservatives is noChange
+  rule: if InflationPrices is medium then Labour is noChange
+  rule: if InflationPrices is medium then LibDems is noChange
+  rule: if InflationPrices is medium then Nationalist is noChange
+  rule: if InflationPrices is medium then Minor is noChange
+  rule: if PetrolPricesFuel is medium then Conservatives is noChange
+  rule: if PetrolPricesFuel is medium then Labour is noChange
+  rule: if PetrolPricesFuel is medium then LibDems is noChange
+  rule: if PetrolPricesFuel is medium then Nationalist is noChange
+  rule: if PetrolPricesFuel is medium then Minor is noChange
+  rule: if CountrysideRuralLife is medium then Conservatives is noChange
+  rule: if CountrysideRuralLife is medium then Labour is noChange
+  rule: if CountrysideRuralLife is medium then LibDems is noChange
+  rule: if CountrysideRuralLife is medium then Nationalist is noChange
+  rule: if CountrysideRuralLife is medium then Minor is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Conservatives is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Labour is noChange
+  rule: if LowPayMinimumWageFairWages is medium then LibDems is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Nationalist is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Minor is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Conservatives is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Labour is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then LibDems is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Nationalist is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Minor is noChange
+  rule: if AnimalWelfare is medium then Conservatives is noChange
+  rule: if AnimalWelfare is medium then Labour is noChange
+  rule: if AnimalWelfare is medium then LibDems is noChange
+  rule: if AnimalWelfare is medium then Nationalist is noChange
+  rule: if AnimalWelfare is medium then Minor is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is medium then Conservatives is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is medium then Labour is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is medium then LibDems is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is medium then Nationalist is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is medium then Minor is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Conservatives is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Labour is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then LibDems is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Nationalist is noChange
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Minor is noChange
+  rule: if AIDS is bottom then Conservatives is noChange
+  rule: if AIDS is bottom then Labour is noChange
+  rule: if AIDS is bottom then LibDems is noChange
+  rule: if AIDS is bottom then Nationalist is noChange
+  rule: if AIDS is bottom then Minor is noChange
+  rule: if NorthernIreland is bottom then Conservatives is noChange
+  rule: if NorthernIreland is bottom then Labour is noChange
+  rule: if NorthernIreland is bottom then LibDems is noChange
+  rule: if NorthernIreland is bottom then Nationalist is noChange
+  rule: if NorthernIreland is bottom then Minor is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Conservatives is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Labour is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then LibDems is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Nationalist is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Minor is noChange
+  rule: if Privatisation is bottom then Conservatives is noChange
+  rule: if Privatisation is bottom then Labour is noChange
+  rule: if Privatisation is bottom then LibDems is noChange
+  rule: if Privatisation is bottom then Nationalist is noChange
+  rule: if Privatisation is bottom then Minor is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Conservatives is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Labour is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then LibDems is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Nationalist is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Minor is noChange
+  rule: if TradeUnionsStrikes is bottom then Conservatives is noChange
+  rule: if TradeUnionsStrikes is bottom then Labour is noChange
+  rule: if TradeUnionsStrikes is bottom then LibDems is noChange
+  rule: if TradeUnionsStrikes is bottom then Nationalist is noChange
+  rule: if TradeUnionsStrikes is bottom then Minor is noChange
+  rule: if TsunamiSouthEastAsia is bottom then Conservatives is noChange
+  rule: if TsunamiSouthEastAsia is bottom then Labour is noChange
+  rule: if TsunamiSouthEastAsia is bottom then LibDems is noChange
+  rule: if TsunamiSouthEastAsia is bottom then Nationalist is noChange
+  rule: if TsunamiSouthEastAsia is bottom then Minor is noChange
+  rule: if BSEBeef is bottom then Conservatives is noChange
+  rule: if BSEBeef is bottom then Labour is noChange
+  rule: if BSEBeef is bottom then LibDems is noChange
+  rule: if BSEBeef is bottom then Nationalist is noChange
+  rule: if BSEBeef is bottom then Minor is noChange
+RuleBlock: UxbridgeandSouthRuislipRules20100506
+  enabled: true
+  conjunction: Minimum
+  disjunction: AlgebraicSum
+  implication: EinsteinProduct
+  activation: General
+  rule: if EconomyEconomicSituation is top then Conservatives is massiveGain
+  rule: if EconomyEconomicSituation is top then Labour is massiveGain
+  rule: if EconomyEconomicSituation is top then LibDems is massiveGain
+  rule: if EconomyEconomicSituation is top then Nationalist is massiveGain
+  rule: if EconomyEconomicSituation is top then Minor is massiveGain
+  rule: if ImmigrationRaceRelations is top then Conservatives is massiveGain
+  rule: if ImmigrationRaceRelations is top then Labour is massiveGain
+  rule: if ImmigrationRaceRelations is top then LibDems is massiveGain
+  rule: if ImmigrationRaceRelations is top then Nationalist is massiveGain
+  rule: if ImmigrationRaceRelations is top then Minor is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is top then Conservatives is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is top then Labour is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is top then LibDems is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is top then Nationalist is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is top then Minor is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Conservatives is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Labour is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then LibDems is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Nationalist is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Minor is massiveGain
+  rule: if NHSHospitalsHealthCare is top then Conservatives is massiveGain
+  rule: if NHSHospitalsHealthCare is top then Labour is massiveGain
+  rule: if NHSHospitalsHealthCare is top then LibDems is massiveGain
+  rule: if NHSHospitalsHealthCare is top then Nationalist is massiveGain
+  rule: if NHSHospitalsHealthCare is top then Minor is massiveGain
+  rule: if EducationSchools is top then Conservatives is massiveGain
+  rule: if EducationSchools is top then Labour is massiveGain
+  rule: if EducationSchools is top then LibDems is massiveGain
+  rule: if EducationSchools is top then Nationalist is massiveGain
+  rule: if EducationSchools is top then Minor is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Conservatives is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Labour is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then LibDems is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Nationalist is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Minor is massiveGain
+  rule: if DontKnow is top then Conservatives is massiveGain
+  rule: if DontKnow is top then Labour is massiveGain
+  rule: if DontKnow is top then LibDems is massiveGain
+  rule: if DontKnow is top then Nationalist is massiveGain
+  rule: if DontKnow is top then Minor is massiveGain
+  rule: if InflationPrices is top then Conservatives is massiveGain
+  rule: if InflationPrices is top then Labour is massiveGain
+  rule: if InflationPrices is top then LibDems is massiveGain
+  rule: if InflationPrices is top then Nationalist is massiveGain
+  rule: if InflationPrices is top then Minor is massiveGain
+  rule: if PensionsSocialSecurity is medium then Conservatives is massiveGain
+  rule: if PensionsSocialSecurity is medium then Labour is massiveGain
+  rule: if PensionsSocialSecurity is medium then LibDems is massiveGain
+  rule: if PensionsSocialSecurity is medium then Nationalist is massiveGain
+  rule: if PensionsSocialSecurity is medium then Minor is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then Conservatives is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then Labour is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then LibDems is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then Nationalist is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then Minor is massiveGain
+  rule: if DrugAbuse is medium then Conservatives is massiveGain
+  rule: if DrugAbuse is medium then Labour is massiveGain
+  rule: if DrugAbuse is medium then LibDems is massiveGain
+  rule: if DrugAbuse is medium then Nationalist is massiveGain
+  rule: if DrugAbuse is medium then Minor is massiveGain
+  rule: if PovertyInequality is medium then Conservatives is massiveGain
+  rule: if PovertyInequality is medium then Labour is massiveGain
+  rule: if PovertyInequality is medium then LibDems is massiveGain
+  rule: if PovertyInequality is medium then Nationalist is massiveGain
+  rule: if PovertyInequality is medium then Minor is massiveGain
+  rule: if Taxation is medium then Conservatives is massiveGain
+  rule: if Taxation is medium then Labour is massiveGain
+  rule: if Taxation is medium then LibDems is massiveGain
+  rule: if Taxation is medium then Nationalist is massiveGain
+  rule: if Taxation is medium then Minor is massiveGain
+  rule: if PetrolPricesFuel is medium then Conservatives is massiveGain
+  rule: if PetrolPricesFuel is medium then Labour is massiveGain
+  rule: if PetrolPricesFuel is medium then LibDems is massiveGain
+  rule: if PetrolPricesFuel is medium then Nationalist is massiveGain
+  rule: if PetrolPricesFuel is medium then Minor is massiveGain
+  rule: if PollutionEnvironment is medium then Conservatives is massiveGain
+  rule: if PollutionEnvironment is medium then Labour is massiveGain
+  rule: if PollutionEnvironment is medium then LibDems is massiveGain
+  rule: if PollutionEnvironment is medium then Nationalist is massiveGain
+  rule: if PollutionEnvironment is medium then Minor is massiveGain
+  rule: if Housing is medium then Conservatives is massiveGain
+  rule: if Housing is medium then Labour is massiveGain
+  rule: if Housing is medium then LibDems is massiveGain
+  rule: if Housing is medium then Nationalist is massiveGain
+  rule: if Housing is medium then Minor is massiveGain
+  rule: if LowPayMinimumWageFairWages is medium then Conservatives is massiveGain
+  rule: if LowPayMinimumWageFairWages is medium then Labour is massiveGain
+  rule: if LowPayMinimumWageFairWages is medium then LibDems is massiveGain
+  rule: if LowPayMinimumWageFairWages is medium then Nationalist is massiveGain
+  rule: if LowPayMinimumWageFairWages is medium then Minor is massiveGain
+  rule: if Other is medium then Conservatives is massiveGain
+  rule: if Other is medium then Labour is massiveGain
+  rule: if Other is medium then LibDems is massiveGain
+  rule: if Other is medium then Nationalist is massiveGain
+  rule: if Other is medium then Minor is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Conservatives is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Labour is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then LibDems is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Nationalist is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Minor is massiveGain
+  rule: if PublicServicesinGeneral is medium then Conservatives is massiveGain
+  rule: if PublicServicesinGeneral is medium then Labour is massiveGain
+  rule: if PublicServicesinGeneral is medium then LibDems is massiveGain
+  rule: if PublicServicesinGeneral is medium then Nationalist is massiveGain
+  rule: if PublicServicesinGeneral is medium then Minor is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Conservatives is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Labour is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then LibDems is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Nationalist is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Minor is massiveGain
+  rule: if TransportPublicTransport is medium then Conservatives is massiveGain
+  rule: if TransportPublicTransport is medium then Labour is massiveGain
+  rule: if TransportPublicTransport is medium then LibDems is massiveGain
+  rule: if TransportPublicTransport is medium then Nationalist is massiveGain
+  rule: if TransportPublicTransport is medium then Minor is massiveGain
+  rule: if PoundExchangeRateValueofPound is medium then Conservatives is massiveGain
+  rule: if PoundExchangeRateValueofPound is medium then Labour is massiveGain
+  rule: if PoundExchangeRateValueofPound is medium then LibDems is massiveGain
+  rule: if PoundExchangeRateValueofPound is medium then Nationalist is massiveGain
+  rule: if PoundExchangeRateValueofPound is medium then Minor is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Conservatives is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Labour is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then LibDems is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Nationalist is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Minor is massiveGain
+  rule: if CountrysideRuralLife is medium then Conservatives is massiveGain
+  rule: if CountrysideRuralLife is medium then Labour is massiveGain
+  rule: if CountrysideRuralLife is medium then LibDems is massiveGain
+  rule: if CountrysideRuralLife is medium then Nationalist is massiveGain
+  rule: if CountrysideRuralLife is medium then Minor is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Conservatives is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Labour is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is medium then LibDems is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Nationalist is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Minor is massiveGain
+  rule: if Privatisation is bottom then Conservatives is massiveGain
+  rule: if Privatisation is bottom then Labour is massiveGain
+  rule: if Privatisation is bottom then LibDems is massiveGain
+  rule: if Privatisation is bottom then Nationalist is massiveGain
+  rule: if Privatisation is bottom then Minor is massiveGain
+  rule: if AIDS is bottom then Conservatives is massiveGain
+  rule: if AIDS is bottom then Labour is massiveGain
+  rule: if AIDS is bottom then LibDems is massiveGain
+  rule: if AIDS is bottom then Nationalist is massiveGain
+  rule: if AIDS is bottom then Minor is massiveGain
+  rule: if AnimalWelfare is bottom then Conservatives is massiveGain
+  rule: if AnimalWelfare is bottom then Labour is massiveGain
+  rule: if AnimalWelfare is bottom then LibDems is massiveGain
+  rule: if AnimalWelfare is bottom then Nationalist is massiveGain
+  rule: if AnimalWelfare is bottom then Minor is massiveGain
+  rule: if BirdFluFluPandemic is bottom then Conservatives is massiveGain
+  rule: if BirdFluFluPandemic is bottom then Labour is massiveGain
+  rule: if BirdFluFluPandemic is bottom then LibDems is massiveGain
+  rule: if BirdFluFluPandemic is bottom then Nationalist is massiveGain
+  rule: if BirdFluFluPandemic is bottom then Minor is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Conservatives is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Labour is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then LibDems is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Nationalist is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Minor is massiveGain
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Conservatives is massiveGain
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Labour is massiveGain
+  rule: if GMGMGeneticallyModifiedFoods is bottom then LibDems is massiveGain
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Nationalist is massiveGain
+  rule: if GMGMGeneticallyModifiedFoods is bottom then Minor is massiveGain
+  rule: if NorthernIreland is bottom then Conservatives is massiveGain
+  rule: if NorthernIreland is bottom then Labour is massiveGain
+  rule: if NorthernIreland is bottom then LibDems is massiveGain
+  rule: if NorthernIreland is bottom then Nationalist is massiveGain
+  rule: if NorthernIreland is bottom then Minor is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Conservatives is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Labour is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then LibDems is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Nationalist is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is bottom then Minor is massiveGain
+  rule: if TradeUnionsStrikes is bottom then Conservatives is massiveGain
+  rule: if TradeUnionsStrikes is bottom then Labour is massiveGain
+  rule: if TradeUnionsStrikes is bottom then LibDems is massiveGain
+  rule: if TradeUnionsStrikes is bottom then Nationalist is massiveGain
+  rule: if TradeUnionsStrikes is bottom then Minor is massiveGain
+RuleBlock: UxbridgeandSouthRuislipRules20150507
+  enabled: true
+  conjunction: Minimum
+  disjunction: AlgebraicSum
+  implication: EinsteinProduct
+  activation: General
+  rule: if ImmigrationRaceRelations is top then Conservatives is massiveLoss
+  rule: if ImmigrationRaceRelations is top then Labour is massiveLoss
+  rule: if ImmigrationRaceRelations is top then LibDems is massiveLoss
+  rule: if ImmigrationRaceRelations is top then Nationalist is massiveGain
+  rule: if ImmigrationRaceRelations is top then Minor is massiveGain
+  rule: if ImmigrationRaceRelations is top then Other is massiveLoss
+  rule: if ImmigrationRaceRelations is top then UKIP is massiveGain
+  rule: if ImmigrationRaceRelations is top then Green is massiveGain
+  rule: if NHSHospitalsHealthCare is top then Conservatives is massiveLoss
+  rule: if NHSHospitalsHealthCare is top then Labour is massiveLoss
+  rule: if NHSHospitalsHealthCare is top then LibDems is massiveLoss
+  rule: if NHSHospitalsHealthCare is top then Nationalist is massiveGain
+  rule: if NHSHospitalsHealthCare is top then Minor is massiveGain
+  rule: if NHSHospitalsHealthCare is top then Other is massiveLoss
+  rule: if NHSHospitalsHealthCare is top then UKIP is massiveGain
+  rule: if NHSHospitalsHealthCare is top then Green is massiveGain
+  rule: if EconomyEconomicSituation is top then Conservatives is massiveLoss
+  rule: if EconomyEconomicSituation is top then Labour is massiveLoss
+  rule: if EconomyEconomicSituation is top then LibDems is massiveLoss
+  rule: if EconomyEconomicSituation is top then Nationalist is massiveGain
+  rule: if EconomyEconomicSituation is top then Minor is massiveGain
+  rule: if EconomyEconomicSituation is top then Other is massiveLoss
+  rule: if EconomyEconomicSituation is top then UKIP is massiveGain
+  rule: if EconomyEconomicSituation is top then Green is massiveGain
+  rule: if EducationSchools is top then Conservatives is massiveLoss
+  rule: if EducationSchools is top then Labour is massiveLoss
+  rule: if EducationSchools is top then LibDems is massiveLoss
+  rule: if EducationSchools is top then Nationalist is massiveGain
+  rule: if EducationSchools is top then Minor is massiveGain
+  rule: if EducationSchools is top then Other is massiveLoss
+  rule: if EducationSchools is top then UKIP is massiveGain
+  rule: if EducationSchools is top then Green is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Conservatives is massiveLoss
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Labour is massiveLoss
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then LibDems is massiveLoss
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Nationalist is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Minor is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Other is massiveLoss
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then UKIP is massiveGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is top then Green is massiveGain
+  rule: if Housing is top then Conservatives is massiveLoss
+  rule: if Housing is top then Labour is massiveLoss
+  rule: if Housing is top then LibDems is massiveLoss
+  rule: if Housing is top then Nationalist is massiveGain
+  rule: if Housing is top then Minor is massiveGain
+  rule: if Housing is top then Other is massiveLoss
+  rule: if Housing is top then UKIP is massiveGain
+  rule: if Housing is top then Green is massiveGain
+  rule: if PovertyInequality is top then Conservatives is massiveLoss
+  rule: if PovertyInequality is top then Labour is massiveLoss
+  rule: if PovertyInequality is top then LibDems is massiveLoss
+  rule: if PovertyInequality is top then Nationalist is massiveGain
+  rule: if PovertyInequality is top then Minor is massiveGain
+  rule: if PovertyInequality is top then Other is massiveLoss
+  rule: if PovertyInequality is top then UKIP is massiveGain
+  rule: if PovertyInequality is top then Green is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Conservatives is massiveLoss
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Labour is massiveLoss
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then LibDems is massiveLoss
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Nationalist is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Minor is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Other is massiveLoss
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then UKIP is massiveGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Green is massiveGain
+  rule: if LowPayMinimumWageFairWages is top then Conservatives is massiveLoss
+  rule: if LowPayMinimumWageFairWages is top then Labour is massiveLoss
+  rule: if LowPayMinimumWageFairWages is top then LibDems is massiveLoss
+  rule: if LowPayMinimumWageFairWages is top then Nationalist is massiveGain
+  rule: if LowPayMinimumWageFairWages is top then Minor is massiveGain
+  rule: if LowPayMinimumWageFairWages is top then Other is massiveLoss
+  rule: if LowPayMinimumWageFairWages is top then UKIP is massiveGain
+  rule: if LowPayMinimumWageFairWages is top then Green is massiveGain
+  rule: if PensionsSocialSecurity is medium then Conservatives is massiveLoss
+  rule: if PensionsSocialSecurity is medium then Labour is massiveLoss
+  rule: if PensionsSocialSecurity is medium then LibDems is massiveLoss
+  rule: if PensionsSocialSecurity is medium then Nationalist is massiveGain
+  rule: if PensionsSocialSecurity is medium then Minor is massiveGain
+  rule: if PensionsSocialSecurity is medium then Other is massiveLoss
+  rule: if PensionsSocialSecurity is medium then UKIP is massiveGain
+  rule: if PensionsSocialSecurity is medium then Green is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Conservatives is massiveLoss
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Labour is massiveLoss
+  rule: if CrimeLawandOrderViolenceVandalism is medium then LibDems is massiveLoss
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Nationalist is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Minor is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Other is massiveLoss
+  rule: if CrimeLawandOrderViolenceVandalism is medium then UKIP is massiveGain
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Green is massiveGain
+  rule: if DontKnow is medium then Conservatives is massiveLoss
+  rule: if DontKnow is medium then Labour is massiveLoss
+  rule: if DontKnow is medium then LibDems is massiveLoss
+  rule: if DontKnow is medium then Nationalist is massiveGain
+  rule: if DontKnow is medium then Minor is massiveGain
+  rule: if DontKnow is medium then Other is massiveLoss
+  rule: if DontKnow is medium then UKIP is massiveGain
+  rule: if DontKnow is medium then Green is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Conservatives is massiveLoss
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Labour is massiveLoss
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then LibDems is massiveLoss
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Nationalist is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Minor is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Other is massiveLoss
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then UKIP is massiveGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is medium then Green is massiveGain
+  rule: if AgeingPopulationSocialCarefortheElderly is medium then Conservatives is massiveLoss
+  rule: if AgeingPopulationSocialCarefortheElderly is medium then Labour is massiveLoss
+  rule: if AgeingPopulationSocialCarefortheElderly is medium then LibDems is massiveLoss
+  rule: if AgeingPopulationSocialCarefortheElderly is medium then Nationalist is massiveGain
+  rule: if AgeingPopulationSocialCarefortheElderly is medium then Minor is massiveGain
+  rule: if AgeingPopulationSocialCarefortheElderly is medium then Other is massiveLoss
+  rule: if AgeingPopulationSocialCarefortheElderly is medium then UKIP is massiveGain
+  rule: if AgeingPopulationSocialCarefortheElderly is medium then Green is massiveGain
+  rule: if Taxation is medium then Conservatives is massiveLoss
+  rule: if Taxation is medium then Labour is massiveLoss
+  rule: if Taxation is medium then LibDems is massiveLoss
+  rule: if Taxation is medium then Nationalist is massiveGain
+  rule: if Taxation is medium then Minor is massiveGain
+  rule: if Taxation is medium then Other is massiveLoss
+  rule: if Taxation is medium then UKIP is massiveGain
+  rule: if Taxation is medium then Green is massiveGain
+  rule: if InflationPrices is medium then Conservatives is massiveLoss
+  rule: if InflationPrices is medium then Labour is massiveLoss
+  rule: if InflationPrices is medium then LibDems is massiveLoss
+  rule: if InflationPrices is medium then Nationalist is massiveGain
+  rule: if InflationPrices is medium then Minor is massiveGain
+  rule: if InflationPrices is medium then Other is massiveLoss
+  rule: if InflationPrices is medium then UKIP is massiveGain
+  rule: if InflationPrices is medium then Green is massiveGain
+  rule: if PublicServicesinGeneral is medium then Conservatives is massiveLoss
+  rule: if PublicServicesinGeneral is medium then Labour is massiveLoss
+  rule: if PublicServicesinGeneral is medium then LibDems is massiveLoss
+  rule: if PublicServicesinGeneral is medium then Nationalist is massiveGain
+  rule: if PublicServicesinGeneral is medium then Minor is massiveGain
+  rule: if PublicServicesinGeneral is medium then Other is massiveLoss
+  rule: if PublicServicesinGeneral is medium then UKIP is massiveGain
+  rule: if PublicServicesinGeneral is medium then Green is massiveGain
+  rule: if DrugAbuse is medium then Conservatives is massiveLoss
+  rule: if DrugAbuse is medium then Labour is massiveLoss
+  rule: if DrugAbuse is medium then LibDems is massiveLoss
+  rule: if DrugAbuse is medium then Nationalist is massiveGain
+  rule: if DrugAbuse is medium then Minor is massiveGain
+  rule: if DrugAbuse is medium then Other is massiveLoss
+  rule: if DrugAbuse is medium then UKIP is massiveGain
+  rule: if DrugAbuse is medium then Green is massiveGain
+  rule: if Other is medium then Conservatives is massiveLoss
+  rule: if Other is medium then Labour is massiveLoss
+  rule: if Other is medium then LibDems is massiveLoss
+  rule: if Other is medium then Nationalist is massiveGain
+  rule: if Other is medium then Minor is massiveGain
+  rule: if Other is medium then Other is massiveLoss
+  rule: if Other is medium then UKIP is massiveGain
+  rule: if Other is medium then Green is massiveGain
+  rule: if PollutionEnvironment is medium then Conservatives is massiveLoss
+  rule: if PollutionEnvironment is medium then Labour is massiveLoss
+  rule: if PollutionEnvironment is medium then LibDems is massiveLoss
+  rule: if PollutionEnvironment is medium then Nationalist is massiveGain
+  rule: if PollutionEnvironment is medium then Minor is massiveGain
+  rule: if PollutionEnvironment is medium then Other is massiveLoss
+  rule: if PollutionEnvironment is medium then UKIP is massiveGain
+  rule: if PollutionEnvironment is medium then Green is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then Conservatives is massiveLoss
+  rule: if MoralityIndividualBehaviour is medium then Labour is massiveLoss
+  rule: if MoralityIndividualBehaviour is medium then LibDems is massiveLoss
+  rule: if MoralityIndividualBehaviour is medium then Nationalist is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then Minor is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then Other is massiveLoss
+  rule: if MoralityIndividualBehaviour is medium then UKIP is massiveGain
+  rule: if MoralityIndividualBehaviour is medium then Green is massiveGain
+  rule: if TransportPublicTransport is medium then Conservatives is massiveLoss
+  rule: if TransportPublicTransport is medium then Labour is massiveLoss
+  rule: if TransportPublicTransport is medium then LibDems is massiveLoss
+  rule: if TransportPublicTransport is medium then Nationalist is massiveGain
+  rule: if TransportPublicTransport is medium then Minor is massiveGain
+  rule: if TransportPublicTransport is medium then Other is massiveLoss
+  rule: if TransportPublicTransport is medium then UKIP is massiveGain
+  rule: if TransportPublicTransport is medium then Green is massiveGain
+  rule: if Privatisation is medium then Conservatives is massiveLoss
+  rule: if Privatisation is medium then Labour is massiveLoss
+  rule: if Privatisation is medium then LibDems is massiveLoss
+  rule: if Privatisation is medium then Nationalist is massiveGain
+  rule: if Privatisation is medium then Minor is massiveGain
+  rule: if Privatisation is medium then Other is massiveLoss
+  rule: if Privatisation is medium then UKIP is massiveGain
+  rule: if Privatisation is medium then Green is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Conservatives is massiveLoss
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Labour is massiveLoss
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then LibDems is massiveLoss
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Nationalist is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Minor is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Other is massiveLoss
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then UKIP is massiveGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Green is massiveGain
+  rule: if PetrolPricesFuel is medium then Conservatives is massiveLoss
+  rule: if PetrolPricesFuel is medium then Labour is massiveLoss
+  rule: if PetrolPricesFuel is medium then LibDems is massiveLoss
+  rule: if PetrolPricesFuel is medium then Nationalist is massiveGain
+  rule: if PetrolPricesFuel is medium then Minor is massiveGain
+  rule: if PetrolPricesFuel is medium then Other is massiveLoss
+  rule: if PetrolPricesFuel is medium then UKIP is massiveGain
+  rule: if PetrolPricesFuel is medium then Green is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Conservatives is massiveLoss
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Labour is massiveLoss
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then LibDems is massiveLoss
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Nationalist is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Minor is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Other is massiveLoss
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then UKIP is massiveGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Green is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Conservatives is massiveLoss
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Labour is massiveLoss
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then LibDems is massiveLoss
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Nationalist is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Minor is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Other is massiveLoss
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then UKIP is massiveGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is medium then Green is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is bottom then Conservatives is massiveLoss
+  rule: if NationalisationGovernmentControlofInstitutions is bottom then Labour is massiveLoss
+  rule: if NationalisationGovernmentControlofInstitutions is bottom then LibDems is massiveLoss
+  rule: if NationalisationGovernmentControlofInstitutions is bottom then Nationalist is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is bottom then Minor is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is bottom then Other is massiveLoss
+  rule: if NationalisationGovernmentControlofInstitutions is bottom then UKIP is massiveGain
+  rule: if NationalisationGovernmentControlofInstitutions is bottom then Green is massiveGain
+  rule: if CountrysideRuralLife is bottom then Conservatives is massiveLoss
+  rule: if CountrysideRuralLife is bottom then Labour is massiveLoss
+  rule: if CountrysideRuralLife is bottom then LibDems is massiveLoss
+  rule: if CountrysideRuralLife is bottom then Nationalist is massiveGain
+  rule: if CountrysideRuralLife is bottom then Minor is massiveGain
+  rule: if CountrysideRuralLife is bottom then Other is massiveLoss
+  rule: if CountrysideRuralLife is bottom then UKIP is massiveGain
+  rule: if CountrysideRuralLife is bottom then Green is massiveGain
+  rule: if AnimalWelfare is bottom then Conservatives is massiveLoss
+  rule: if AnimalWelfare is bottom then Labour is massiveLoss
+  rule: if AnimalWelfare is bottom then LibDems is massiveLoss
+  rule: if AnimalWelfare is bottom then Nationalist is massiveGain
+  rule: if AnimalWelfare is bottom then Minor is massiveGain
+  rule: if AnimalWelfare is bottom then Other is massiveLoss
+  rule: if AnimalWelfare is bottom then UKIP is massiveGain
+  rule: if AnimalWelfare is bottom then Green is massiveGain
+  rule: if PoundExchangeRateValueofPound is bottom then Conservatives is massiveLoss
+  rule: if PoundExchangeRateValueofPound is bottom then Labour is massiveLoss
+  rule: if PoundExchangeRateValueofPound is bottom then LibDems is massiveLoss
+  rule: if PoundExchangeRateValueofPound is bottom then Nationalist is massiveGain
+  rule: if PoundExchangeRateValueofPound is bottom then Minor is massiveGain
+  rule: if PoundExchangeRateValueofPound is bottom then Other is massiveLoss
+  rule: if PoundExchangeRateValueofPound is bottom then UKIP is massiveGain
+  rule: if PoundExchangeRateValueofPound is bottom then Green is massiveGain
+  rule: if AIDS is bottom then Conservatives is massiveLoss
+  rule: if AIDS is bottom then Labour is massiveLoss
+  rule: if AIDS is bottom then LibDems is massiveLoss
+  rule: if AIDS is bottom then Nationalist is massiveGain
+  rule: if AIDS is bottom then Minor is massiveGain
+  rule: if AIDS is bottom then Other is massiveLoss
+  rule: if AIDS is bottom then UKIP is massiveGain
+  rule: if AIDS is bottom then Green is massiveGain
+  rule: if TradeUnionsStrikes is bottom then Conservatives is massiveLoss
+  rule: if TradeUnionsStrikes is bottom then Labour is massiveLoss
+  rule: if TradeUnionsStrikes is bottom then LibDems is massiveLoss
+  rule: if TradeUnionsStrikes is bottom then Nationalist is massiveGain
+  rule: if TradeUnionsStrikes is bottom then Minor is massiveGain
+  rule: if TradeUnionsStrikes is bottom then Other is massiveLoss
+  rule: if TradeUnionsStrikes is bottom then UKIP is massiveGain
+  rule: if TradeUnionsStrikes is bottom then Green is massiveGain
+  rule: if BirdFluFluPandemic is bottom then Conservatives is massiveLoss
+  rule: if BirdFluFluPandemic is bottom then Labour is massiveLoss
+  rule: if BirdFluFluPandemic is bottom then LibDems is massiveLoss
+  rule: if BirdFluFluPandemic is bottom then Nationalist is massiveGain
+  rule: if BirdFluFluPandemic is bottom then Minor is massiveGain
+  rule: if BirdFluFluPandemic is bottom then Other is massiveLoss
+  rule: if BirdFluFluPandemic is bottom then UKIP is massiveGain
+  rule: if BirdFluFluPandemic is bottom then Green is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Conservatives is massiveLoss
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Labour is massiveLoss
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then LibDems is massiveLoss
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Nationalist is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Minor is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Other is massiveLoss
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then UKIP is massiveGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Green is massiveGain
+  rule: if NorthernIreland is bottom then Conservatives is massiveLoss
+  rule: if NorthernIreland is bottom then Labour is massiveLoss
+  rule: if NorthernIreland is bottom then LibDems is massiveLoss
+  rule: if NorthernIreland is bottom then Nationalist is massiveGain
+  rule: if NorthernIreland is bottom then Minor is massiveGain
+  rule: if NorthernIreland is bottom then Other is massiveLoss
+  rule: if NorthernIreland is bottom then UKIP is massiveGain
+  rule: if NorthernIreland is bottom then Green is massiveGain
+RuleBlock: UxbridgeandSouthRuislipRules20170608
+  enabled: true
+  conjunction: Minimum
+  disjunction: AlgebraicSum
+  implication: EinsteinProduct
+  activation: General
+  rule: if NHSHospitalsHealthCare is top then Conservatives is tinyGain
+  rule: if NHSHospitalsHealthCare is top then Labour is bigGain
+  rule: if NHSHospitalsHealthCare is top then LibDems is tinyLoss
+  rule: if NHSHospitalsHealthCare is top then Nationalist is noChange
+  rule: if NHSHospitalsHealthCare is top then Minor is noChange
+  rule: if NHSHospitalsHealthCare is top then Other is tinyLoss
+  rule: if NHSHospitalsHealthCare is top then UKIP is bigLoss
+  rule: if NHSHospitalsHealthCare is top then Green is tinyLoss
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Conservatives is tinyGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Labour is bigGain
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then LibDems is tinyLoss
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Nationalist is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Minor is noChange
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Other is tinyLoss
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then UKIP is bigLoss
+  rule: if CommonMarketEUEuropeSingleEuropeanCurrency is top then Green is tinyLoss
+  rule: if PublicServicesinGeneral is top then Conservatives is tinyGain
+  rule: if PublicServicesinGeneral is top then Labour is bigGain
+  rule: if PublicServicesinGeneral is top then LibDems is tinyLoss
+  rule: if PublicServicesinGeneral is top then Nationalist is noChange
+  rule: if PublicServicesinGeneral is top then Minor is noChange
+  rule: if PublicServicesinGeneral is top then Other is tinyLoss
+  rule: if PublicServicesinGeneral is top then UKIP is bigLoss
+  rule: if PublicServicesinGeneral is top then Green is tinyLoss
+  rule: if EducationSchools is top then Conservatives is tinyGain
+  rule: if EducationSchools is top then Labour is bigGain
+  rule: if EducationSchools is top then LibDems is tinyLoss
+  rule: if EducationSchools is top then Nationalist is noChange
+  rule: if EducationSchools is top then Minor is noChange
+  rule: if EducationSchools is top then Other is tinyLoss
+  rule: if EducationSchools is top then UKIP is bigLoss
+  rule: if EducationSchools is top then Green is tinyLoss
+  rule: if EconomyEconomicSituation is top then Conservatives is tinyGain
+  rule: if EconomyEconomicSituation is top then Labour is bigGain
+  rule: if EconomyEconomicSituation is top then LibDems is tinyLoss
+  rule: if EconomyEconomicSituation is top then Nationalist is noChange
+  rule: if EconomyEconomicSituation is top then Minor is noChange
+  rule: if EconomyEconomicSituation is top then Other is tinyLoss
+  rule: if EconomyEconomicSituation is top then UKIP is bigLoss
+  rule: if EconomyEconomicSituation is top then Green is tinyLoss
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Conservatives is tinyGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Labour is bigGain
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then LibDems is tinyLoss
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Nationalist is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Minor is noChange
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Other is tinyLoss
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then UKIP is bigLoss
+  rule: if DefenceForeignAffairsInternationalTerrorism is top then Green is tinyLoss
+  rule: if Housing is top then Conservatives is tinyGain
+  rule: if Housing is top then Labour is bigGain
+  rule: if Housing is top then LibDems is tinyLoss
+  rule: if Housing is top then Nationalist is noChange
+  rule: if Housing is top then Minor is noChange
+  rule: if Housing is top then Other is tinyLoss
+  rule: if Housing is top then UKIP is bigLoss
+  rule: if Housing is top then Green is tinyLoss
+  rule: if PovertyInequality is top then Conservatives is tinyGain
+  rule: if PovertyInequality is top then Labour is bigGain
+  rule: if PovertyInequality is top then LibDems is tinyLoss
+  rule: if PovertyInequality is top then Nationalist is noChange
+  rule: if PovertyInequality is top then Minor is noChange
+  rule: if PovertyInequality is top then Other is tinyLoss
+  rule: if PovertyInequality is top then UKIP is bigLoss
+  rule: if PovertyInequality is top then Green is tinyLoss
+  rule: if AgeingPopulationSocialCarefortheElderly is top then Conservatives is tinyGain
+  rule: if AgeingPopulationSocialCarefortheElderly is top then Labour is bigGain
+  rule: if AgeingPopulationSocialCarefortheElderly is top then LibDems is tinyLoss
+  rule: if AgeingPopulationSocialCarefortheElderly is top then Nationalist is noChange
+  rule: if AgeingPopulationSocialCarefortheElderly is top then Minor is noChange
+  rule: if AgeingPopulationSocialCarefortheElderly is top then Other is tinyLoss
+  rule: if AgeingPopulationSocialCarefortheElderly is top then UKIP is bigLoss
+  rule: if AgeingPopulationSocialCarefortheElderly is top then Green is tinyLoss
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Conservatives is tinyGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Labour is bigGain
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then LibDems is tinyLoss
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Nationalist is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Minor is noChange
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Other is tinyLoss
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then UKIP is bigLoss
+  rule: if UnemploymentFactoryClosureLackOfIndustry is medium then Green is tinyLoss
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Conservatives is tinyGain
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Labour is bigGain
+  rule: if CrimeLawandOrderViolenceVandalism is medium then LibDems is tinyLoss
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Nationalist is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Minor is noChange
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Other is tinyLoss
+  rule: if CrimeLawandOrderViolenceVandalism is medium then UKIP is bigLoss
+  rule: if CrimeLawandOrderViolenceVandalism is medium then Green is tinyLoss
+  rule: if DontKnow is medium then Conservatives is tinyGain
+  rule: if DontKnow is medium then Labour is bigGain
+  rule: if DontKnow is medium then LibDems is tinyLoss
+  rule: if DontKnow is medium then Nationalist is noChange
+  rule: if DontKnow is medium then Minor is noChange
+  rule: if DontKnow is medium then Other is tinyLoss
+  rule: if DontKnow is medium then UKIP is bigLoss
+  rule: if DontKnow is medium then Green is tinyLoss
+  rule: if PensionsSocialSecurity is medium then Conservatives is tinyGain
+  rule: if PensionsSocialSecurity is medium then Labour is bigGain
+  rule: if PensionsSocialSecurity is medium then LibDems is tinyLoss
+  rule: if PensionsSocialSecurity is medium then Nationalist is noChange
+  rule: if PensionsSocialSecurity is medium then Minor is noChange
+  rule: if PensionsSocialSecurity is medium then Other is tinyLoss
+  rule: if PensionsSocialSecurity is medium then UKIP is bigLoss
+  rule: if PensionsSocialSecurity is medium then Green is tinyLoss
+  rule: if PollutionEnvironment is medium then Conservatives is tinyGain
+  rule: if PollutionEnvironment is medium then Labour is bigGain
+  rule: if PollutionEnvironment is medium then LibDems is tinyLoss
+  rule: if PollutionEnvironment is medium then Nationalist is noChange
+  rule: if PollutionEnvironment is medium then Minor is noChange
+  rule: if PollutionEnvironment is medium then Other is tinyLoss
+  rule: if PollutionEnvironment is medium then UKIP is bigLoss
+  rule: if PollutionEnvironment is medium then Green is tinyLoss
+  rule: if LowPayMinimumWageFairWages is medium then Conservatives is tinyGain
+  rule: if LowPayMinimumWageFairWages is medium then Labour is bigGain
+  rule: if LowPayMinimumWageFairWages is medium then LibDems is tinyLoss
+  rule: if LowPayMinimumWageFairWages is medium then Nationalist is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Minor is noChange
+  rule: if LowPayMinimumWageFairWages is medium then Other is tinyLoss
+  rule: if LowPayMinimumWageFairWages is medium then UKIP is bigLoss
+  rule: if LowPayMinimumWageFairWages is medium then Green is tinyLoss
+  rule: if LackofFaithinGovernment is medium then Conservatives is tinyGain
+  rule: if LackofFaithinGovernment is medium then Labour is bigGain
+  rule: if LackofFaithinGovernment is medium then LibDems is tinyLoss
+  rule: if LackofFaithinGovernment is medium then Nationalist is noChange
+  rule: if LackofFaithinGovernment is medium then Minor is noChange
+  rule: if LackofFaithinGovernment is medium then Other is tinyLoss
+  rule: if LackofFaithinGovernment is medium then UKIP is bigLoss
+  rule: if LackofFaithinGovernment is medium then Green is tinyLoss
+  rule: if InflationPrices is medium then Conservatives is tinyGain
+  rule: if InflationPrices is medium then Labour is bigGain
+  rule: if InflationPrices is medium then LibDems is tinyLoss
+  rule: if InflationPrices is medium then Nationalist is noChange
+  rule: if InflationPrices is medium then Minor is noChange
+  rule: if InflationPrices is medium then Other is tinyLoss
+  rule: if InflationPrices is medium then UKIP is bigLoss
+  rule: if InflationPrices is medium then Green is tinyLoss
+  rule: if Taxation is medium then Conservatives is tinyGain
+  rule: if Taxation is medium then Labour is bigGain
+  rule: if Taxation is medium then LibDems is tinyLoss
+  rule: if Taxation is medium then Nationalist is noChange
+  rule: if Taxation is medium then Minor is noChange
+  rule: if Taxation is medium then Other is tinyLoss
+  rule: if Taxation is medium then UKIP is bigLoss
+  rule: if Taxation is medium then Green is tinyLoss
+  rule: if DrugAbuse is medium then Conservatives is tinyGain
+  rule: if DrugAbuse is medium then Labour is bigGain
+  rule: if DrugAbuse is medium then LibDems is tinyLoss
+  rule: if DrugAbuse is medium then Nationalist is noChange
+  rule: if DrugAbuse is medium then Minor is noChange
+  rule: if DrugAbuse is medium then Other is tinyLoss
+  rule: if DrugAbuse is medium then UKIP is bigLoss
+  rule: if DrugAbuse is medium then Green is tinyLoss
+  rule: if ImmigrationRaceRelations is medium then Conservatives is tinyGain
+  rule: if ImmigrationRaceRelations is medium then Labour is bigGain
+  rule: if ImmigrationRaceRelations is medium then LibDems is tinyLoss
+  rule: if ImmigrationRaceRelations is medium then Nationalist is noChange
+  rule: if ImmigrationRaceRelations is medium then Minor is noChange
+  rule: if ImmigrationRaceRelations is medium then Other is tinyLoss
+  rule: if ImmigrationRaceRelations is medium then UKIP is bigLoss
+  rule: if ImmigrationRaceRelations is medium then Green is tinyLoss
+  rule: if MoralityIndividualBehaviour is medium then Conservatives is tinyGain
+  rule: if MoralityIndividualBehaviour is medium then Labour is bigGain
+  rule: if MoralityIndividualBehaviour is medium then LibDems is tinyLoss
+  rule: if MoralityIndividualBehaviour is medium then Nationalist is noChange
+  rule: if MoralityIndividualBehaviour is medium then Minor is noChange
+  rule: if MoralityIndividualBehaviour is medium then Other is tinyLoss
+  rule: if MoralityIndividualBehaviour is medium then UKIP is bigLoss
+  rule: if MoralityIndividualBehaviour is medium then Green is tinyLoss
+  rule: if TransportPublicTransport is medium then Conservatives is tinyGain
+  rule: if TransportPublicTransport is medium then Labour is bigGain
+  rule: if TransportPublicTransport is medium then LibDems is tinyLoss
+  rule: if TransportPublicTransport is medium then Nationalist is noChange
+  rule: if TransportPublicTransport is medium then Minor is noChange
+  rule: if TransportPublicTransport is medium then Other is tinyLoss
+  rule: if TransportPublicTransport is medium then UKIP is bigLoss
+  rule: if TransportPublicTransport is medium then Green is tinyLoss
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Conservatives is tinyGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Labour is bigGain
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then LibDems is tinyLoss
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Nationalist is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Minor is noChange
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Other is tinyLoss
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then UKIP is bigLoss
+  rule: if LocalGovernmentCouncilTaxPollTax is medium then Green is tinyLoss
+  rule: if Other is medium then Conservatives is tinyGain
+  rule: if Other is medium then Labour is bigGain
+  rule: if Other is medium then LibDems is tinyLoss
+  rule: if Other is medium then Nationalist is noChange
+  rule: if Other is medium then Minor is noChange
+  rule: if Other is medium then Other is tinyLoss
+  rule: if Other is medium then UKIP is bigLoss
+  rule: if Other is medium then Green is tinyLoss
+  rule: if Privatisation is medium then Conservatives is tinyGain
+  rule: if Privatisation is medium then Labour is bigGain
+  rule: if Privatisation is medium then LibDems is tinyLoss
+  rule: if Privatisation is medium then Nationalist is noChange
+  rule: if Privatisation is medium then Minor is noChange
+  rule: if Privatisation is medium then Other is tinyLoss
+  rule: if Privatisation is medium then UKIP is bigLoss
+  rule: if Privatisation is medium then Green is tinyLoss
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Conservatives is tinyGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Labour is bigGain
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then LibDems is tinyLoss
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Nationalist is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Minor is noChange
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Other is tinyLoss
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then UKIP is bigLoss
+  rule: if ScottishWelshAssemblyDevolutionConstitutionalReform is medium then Green is tinyLoss
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Conservatives is tinyGain
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Labour is bigGain
+  rule: if NationalisationGovernmentControlofInstitutions is medium then LibDems is tinyLoss
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Nationalist is noChange
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Minor is noChange
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Other is tinyLoss
+  rule: if NationalisationGovernmentControlofInstitutions is medium then UKIP is bigLoss
+  rule: if NationalisationGovernmentControlofInstitutions is medium then Green is tinyLoss
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Conservatives is tinyGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Labour is bigGain
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then LibDems is tinyLoss
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Nationalist is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Minor is noChange
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Other is tinyLoss
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then UKIP is bigLoss
+  rule: if NuclearWeaponsNuclearWarDisarmament is bottom then Green is tinyLoss
+  rule: if PetrolPricesFuel is bottom then Conservatives is tinyGain
+  rule: if PetrolPricesFuel is bottom then Labour is bigGain
+  rule: if PetrolPricesFuel is bottom then LibDems is tinyLoss
+  rule: if PetrolPricesFuel is bottom then Nationalist is noChange
+  rule: if PetrolPricesFuel is bottom then Minor is noChange
+  rule: if PetrolPricesFuel is bottom then Other is tinyLoss
+  rule: if PetrolPricesFuel is bottom then UKIP is bigLoss
+  rule: if PetrolPricesFuel is bottom then Green is tinyLoss
+  rule: if PoundExchangeRateValueofPound is bottom then Conservatives is tinyGain
+  rule: if PoundExchangeRateValueofPound is bottom then Labour is bigGain
+  rule: if PoundExchangeRateValueofPound is bottom then LibDems is tinyLoss
+  rule: if PoundExchangeRateValueofPound is bottom then Nationalist is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Minor is noChange
+  rule: if PoundExchangeRateValueofPound is bottom then Other is tinyLoss
+  rule: if PoundExchangeRateValueofPound is bottom then UKIP is bigLoss
+  rule: if PoundExchangeRateValueofPound is bottom then Green is tinyLoss
+  rule: if AnimalWelfare is bottom then Conservatives is tinyGain
+  rule: if AnimalWelfare is bottom then Labour is bigGain
+  rule: if AnimalWelfare is bottom then LibDems is tinyLoss
+  rule: if AnimalWelfare is bottom then Nationalist is noChange
+  rule: if AnimalWelfare is bottom then Minor is noChange
+  rule: if AnimalWelfare is bottom then Other is tinyLoss
+  rule: if AnimalWelfare is bottom then UKIP is bigLoss
+  rule: if AnimalWelfare is bottom then Green is tinyLoss
+  rule: if CountrysideRuralLife is bottom then Conservatives is tinyGain
+  rule: if CountrysideRuralLife is bottom then Labour is bigGain
+  rule: if CountrysideRuralLife is bottom then LibDems is tinyLoss
+  rule: if CountrysideRuralLife is bottom then Nationalist is noChange
+  rule: if CountrysideRuralLife is bottom then Minor is noChange
+  rule: if CountrysideRuralLife is bottom then Other is tinyLoss
+  rule: if CountrysideRuralLife is bottom then UKIP is bigLoss
+  rule: if CountrysideRuralLife is bottom then Green is tinyLoss
+  rule: if TradeUnionsStrikes is bottom then Conservatives is tinyGain
+  rule: if TradeUnionsStrikes is bottom then Labour is bigGain
+  rule: if TradeUnionsStrikes is bottom then LibDems is tinyLoss
+  rule: if TradeUnionsStrikes is bottom then Nationalist is noChange
+  rule: if TradeUnionsStrikes is bottom then Minor is noChange
+  rule: if TradeUnionsStrikes is bottom then Other is tinyLoss
+  rule: if TradeUnionsStrikes is bottom then UKIP is bigLoss
+  rule: if TradeUnionsStrikes is bottom then Green is tinyLoss
+  rule: if AIDS is bottom then Conservatives is tinyGain
+  rule: if AIDS is bottom then Labour is bigGain
+  rule: if AIDS is bottom then LibDems is tinyLoss
+  rule: if AIDS is bottom then Nationalist is noChange
+  rule: if AIDS is bottom then Minor is noChange
+  rule: if AIDS is bottom then Other is tinyLoss
+  rule: if AIDS is bottom then UKIP is bigLoss
+  rule: if AIDS is bottom then Green is tinyLoss
+  rule: if NorthernIreland is bottom then Conservatives is tinyGain
+  rule: if NorthernIreland is bottom then Labour is bigGain
+  rule: if NorthernIreland is bottom then LibDems is tinyLoss
+  rule: if NorthernIreland is bottom then Nationalist is noChange
+  rule: if NorthernIreland is bottom then Minor is noChange
+  rule: if NorthernIreland is bottom then Other is tinyLoss
+  rule: if NorthernIreland is bottom then UKIP is bigLoss
+  rule: if NorthernIreland is bottom then Green is tinyLoss
+  rule: if BirdFluFluPandemic is bottom then Conservatives is tinyGain
+  rule: if BirdFluFluPandemic is bottom then Labour is bigGain
+  rule: if BirdFluFluPandemic is bottom then LibDems is tinyLoss
+  rule: if BirdFluFluPandemic is bottom then Nationalist is noChange
+  rule: if BirdFluFluPandemic is bottom then Minor is noChange
+  rule: if BirdFluFluPandemic is bottom then Other is tinyLoss
+  rule: if BirdFluFluPandemic is bottom then UKIP is bigLoss
+  rule: if BirdFluFluPandemic is bottom then Green is tinyLoss
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Conservatives is tinyGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Labour is bigGain
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then LibDems is tinyLoss
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Nationalist is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Minor is noChange
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Other is tinyLoss
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then UKIP is bigLoss
+  rule: if FootandMouthOutbreakFarmingCrisis is bottom then Green is tinyLoss

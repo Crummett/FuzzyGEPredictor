@@ -18,9 +18,10 @@ public:
    bool AggregatePolling( int numMonths, vector<int> vElectionDates, vector<vector<tuple<string, float>>> * rankedquestions );
 
 private:
-   vector<ConstituencyRegion> vConstituencies;
+   vector<ConstituencyRegion *> vConstitRegions;
    vector<PollSet> vPollSet;
    PollingReader* PollReader;
 
-   bool CalcConstituencyVoteChanges( ConstituencyRegion * constituency );
+   bool mostRecentPolling( int pollingMonths, vector<tuple<string, float>>* recentQuestions );
+   string intToDateString( int date );
 };

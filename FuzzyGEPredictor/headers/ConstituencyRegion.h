@@ -35,17 +35,18 @@ struct GEResult
 
 struct ConstituencyHistory
 {
+   vector<int> viParticipatedElections;
    vector<int> viElectorate;
    vector<int> viTurnout;
 
-   // Changes in percentage of vote share
+   // Percentages of vote share for each party
    vector<float> voteshare[NumOfParties];
 };
 
 struct RegionHistory
 {
    vector<int> viElectionDates;
-   vector<string> svName;
+   vector<string> svConstitNames;
    vector<bool> vbUKIPGreen;
    vector<ConstituencyHistory> vchConstituencies;
 };
@@ -60,10 +61,9 @@ public:
    bool fetchResults( vector<int>* vElectionDates );
 
    bool CalcConstituencyVoteChanges();
+   RegionHistory region;
+   int iArea;
 
 private:
-   int iArea;
    vector<GEResult> vResults;
-   RegionHistory region;
 };
-

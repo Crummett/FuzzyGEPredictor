@@ -3,7 +3,6 @@
 PollingReader::PollingReader()
 {}
 
-
 PollingReader::~PollingReader()
 {}
 
@@ -50,6 +49,21 @@ bool PollingReader::fetchPolls( vector<PollSet> * vPollSet )
 
                while ( getline( sStreamFirstLine, substring, delim ) )
                {
+                  // remove whitespace
+                  substring.erase(
+                     remove_if(
+                        substring.begin(), substring.end(), isspace ), substring.end() );
+                  // remove slashes
+                  substring.erase( remove( substring.begin(), substring.end(), '/' ),
+                     substring.end() );
+                  // remove brackets
+                  substring.erase( remove( substring.begin(), substring.end(), '(' ),
+                     substring.end() );
+                  substring.erase( remove( substring.begin(), substring.end(), ')' ),
+                     substring.end() );
+                  // remove apostrophes
+                  substring.erase( remove( substring.begin(), substring.end(), '\'' ),
+                     substring.end() );
                   vsQuestions.push_back( substring );
                }
 
@@ -102,7 +116,6 @@ bool PollingReader::fetchPolls( vector<PollSet> * vPollSet )
          cout << "\n" << pPollingFile << "not read";
          return false;
       }
-
    }
    return true;
 }
@@ -111,9 +124,9 @@ Month PollingReader::convertMonth( string month )
 {
    // Capitalise
    transform( month.begin(),
-              month.end(),
-              month.begin(),
-              []( char c ) { return static_cast<char>( std::toupper( c ) ); } );
+      month.end(),
+      month.begin(),
+      []( char c ) { return static_cast<char>( std::toupper( c ) ); } );
 
    if ( month == "JAN" )
    {
