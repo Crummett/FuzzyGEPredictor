@@ -6,11 +6,10 @@
 /Release
 /FuzzyGEPredictor.dir
 /Win32
-/electdata
-/pollingdata
 /results
 /rulesets
 /fis
+/enginesettings
 
 *.vcxproj
 CMakeCache.txt
