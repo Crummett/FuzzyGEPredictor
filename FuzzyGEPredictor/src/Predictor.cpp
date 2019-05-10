@@ -190,10 +190,13 @@ void Predictor::Predict()
          string regresult = saRegionNames[constitRegion->iArea] + ";";
          for ( int i = 0; i < 14; i++ )
          {
-            regresult += to_string( newMPExport[i] );
-            regresult += ";";
+            if ( i != Nationalist ) // Nationalist is Plaid and SNP, no need to repeat
+            {
+               regresult += to_string( newMPExport[i] );
+               regresult += ";";
 
-            totalNewMPs[i] += newMPExport[i];
+               totalNewMPs[i] += newMPExport[i];
+            }
          }
          spreadsheet << regresult << endl;
       }
@@ -202,8 +205,11 @@ void Predictor::Predict()
    string regresult = "TOTALS;";
    for ( int i = 0; i < 14; i++ )
    {
-      regresult += to_string( totalNewMPs[i] );
-      regresult += ";";
+      if ( i != Nationalist )
+      {
+         regresult += to_string( totalNewMPs[i] );
+         regresult += ";";
+      }
    }
    spreadsheet << regresult << endl;
    spreadsheet.close();
@@ -211,7 +217,10 @@ void Predictor::Predict()
    cout << "\nTOTALS" << endl;
    for ( int i = 0; i < 14; i++ )
    {
-      cout << saFullPartyNames[i] << ": " << to_string( totalNewMPs[i] ) << endl;
+      if ( i != Nationalist )
+      {
+         cout << saFullPartyNames[i] << ": " << to_string( totalNewMPs[i] ) << endl;
+      }
    }
 
    time_t now = time( 0 );
