@@ -94,9 +94,6 @@ void PredictorEngine::generateOutputs()
       newOutput->addTerm( new Ramp( "minorLoss", MinorLoss, 0.0 ) );
       newOutput->addTerm( new Ramp( "tinyLoss", TinyLoss, 0.0 ) );
 
-      newOutput->addTerm( new Ramp( "left", 1.000, 0.000 ) );
-      newOutput->addTerm( new Ramp( "right", 0.000, 1.000 ) );
-
       this->addOutputVariable( newOutput );
    }
 }

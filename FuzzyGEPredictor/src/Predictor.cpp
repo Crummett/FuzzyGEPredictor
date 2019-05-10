@@ -69,11 +69,11 @@ void Predictor::Predict()
    int totalPreviousMPs[14] = { 0 };
    int totalNewMPs[14] = { 0 };
 
-   time_t now = time( 0 );
+   time_t then = time( 0 );
 
    // Set up results spreadsheet
    ofstream spreadsheet;
-   spreadsheet.open( "./results/results_" + to_string( now ) + " .csv" );
+   spreadsheet.open( "./results/results_" + to_string( then ) + " .csv" );
    spreadsheet << "sep=;" << endl;
    string parties = "Region;";
    for each ( string party in saFullPartyNames )
@@ -213,6 +213,10 @@ void Predictor::Predict()
    {
       cout << saFullPartyNames[i] << ": " << to_string( totalNewMPs[i] ) << endl;
    }
+
+   time_t now = time( 0 );
+
+   cout << "\nRuntime: " << now - then << endl;
 
    //cout << "\nRules generated: " << totalRulesCount << endl;
 }
