@@ -4,4 +4,4 @@ An attempt to predict UK general elections with fuzzy analysis powered by the fu
 
 Fuzzylite must be built first as a static library.
 
-Uses polling data from Ipsos MORI's monthly Issues Index and general election results from ElectoralCalculus.co.uk so not included here, but feel free to request the formatted csv files.
+Uses polling data from Ipsos MORI's monthly Issues Index and general election results re-configured from ElectoralCalculus.co.uk
