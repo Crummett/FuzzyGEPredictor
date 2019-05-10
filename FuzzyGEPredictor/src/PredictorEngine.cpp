@@ -71,7 +71,7 @@ void PredictorEngine::generateOutputs()
       newOutput->setDescription( "" );
       newOutput->setEnabled( true );
       newOutput->setRange( MassiveGain, MassiveLoss );
-      newOutput->setAggregation( new Maximum );
+      newOutput->setAggregation( new AlgebraicSum );
       newOutput->setDefuzzifier( new WeightedAverage );
       newOutput->setDefaultValue( fl::nan );
       newOutput->setLockPreviousValue( false );
@@ -116,7 +116,7 @@ bool PredictorEngine::generateRuleBlock( vector<int> vElectionDates,
       newRuleBlock->setEnabled( true );
       newRuleBlock->setConjunction( new Minimum );
       newRuleBlock->setDisjunction( new AlgebraicSum );
-      newRuleBlock->setImplication( new EinsteinProduct );
+      newRuleBlock->setImplication( new Minimum );
       newRuleBlock->setActivation( new General );
 
       vector<tuple<string, float>> questionSet = rankedquestions[year];
@@ -132,48 +132,58 @@ bool PredictorEngine::generateRuleBlock( vector<int> vElectionDates,
 
          string question = get<0>( qTuple );
 
-         string input = getFuzzyInputForRule( qNum, relevantQuestions );
+         if ( question != "DontKnow" and question != "Other" )
+         {
+            string input = getFuzzyInputForRule( qNum, relevantQuestions );
 
-         float weight;
-         if ( input == "top" )
-         {
-            weight = ( float ) 1.0;
-         }
-         else if ( input == "medium" )
-         {
-            weight = ( float ) 0.50;
+            float weight;
+            if ( input == "top" )
+            {
+               weight = ( float ) 1.0;
+            }
+            else if ( input == "medium" )
+            {
+               weight = ( float ) 0.50;
+            }
+            else
+            {
+               weight = ( float )0.10;
+            }
+
+            int parties = Other;
+            if ( bUKIPGreen )
+            {
+               parties = NumOfParties;
+            }
+
+            for ( int iP = 0; iP < parties; iP++ )
+            {
+               string party = getOutputVariable( iP )->getName();
+
+               vector<float> partyHist = constitHist->voteshare[iP];
+
+               if ( partyHist.size() > year )
+               {
+                  float change = 0;
+                  change = partyHist[year] - partyHist[year - 1];
+
+                  string output = getFuzzyOutput( change );
+
+                  // combine the above and make the rule
+                  string rule = "if " + question + " is " + input
+                     + " then " + party + " is " + output;
+
+                  Rule* newRule = Rule::parse( rule, this );
+                  newRule->setWeight( weight );
+                  newRuleBlock->addRule( newRule );
+
+                  totalRulesCount++;
+               }
+            }
          }
          else
          {
-            weight = ( float )0.10;
-         }
-
-         int parties = Other;
-         if ( bUKIPGreen )
-         {
-            parties = NumOfParties;
-         }
-
-         for ( int iP = 0; iP < parties; iP++ )
-         {
-            string party = getOutputVariable( iP )->getName();
-
-            vector<float> partyHist = constitHist->voteshare[iP];
-
-            if ( partyHist.size() > year )
-            {
-               float change = partyHist[year] - partyHist[year - 1];
-
-               string output = getFuzzyOutput( change );
-
-               // combine the above and make the rule
-               string rule = "if " + question + " is " + input
-                  + " then " + party + " is " + output;
-
-               Rule* newRule = Rule::parse( rule, this );
-               newRule->setWeight( weight );
-               newRuleBlock->addRule( newRule );
-            }
+            //cout << "EXCLUDED" << endl;
          }
       }
       if ( newRuleBlock->numberOfRules() > 0 )
@@ -197,11 +207,6 @@ bool PredictorEngine::makePrediction( vector<tuple<string, float>> recentQuestio
    }
    else
    {
-      //vector<InputVariable*> inputs = this->inputVariables();
-      //for each ( InputVariable* input in inputs )
-      //{
-      //   input->setValue( 0 );
-      //}
       int q = 0;
       for each ( tuple<string, float> question in recentQuestions )
       {
@@ -242,20 +247,26 @@ bool PredictorEngine::makePrediction( vector<tuple<string, float>> recentQuestio
       for ( size_t i = 0; i < NumOfParties; i++ )
       {
          OutputVariable* output = this->getOutputVariable( saPartyNames[i] );
-         string str = output->getTerm( 0 )->getName();
          float val = (float)output->getValue();
          swings.push_back( val );
       }
 
       // Calculate new vote shares
+
       for ( size_t pred = 0; pred < swings.size(); pred++ )
       {
          float prediction = thisConstitHist->voteshare[pred].back()
             + swings[pred];
-         //prediction = prediction / total * 100;
+         //prediction = prediction / ( thisConstitHist->voteshare[pred].back() / 2 );
          predictions.push_back( prediction );
          lastResults.push_back( thisConstitHist->voteshare[pred].back() );
       }
+
+      //auto largestfirst = max_element( begin( predictions ), end( predictions ) );
+      //if ( distance( begin( predictions ), largestfirst ) == UKIP )
+      //{
+      //   predictions.erase( largestfirst );
+      //}
 
       for each ( float pred in predictions )
       {
@@ -272,6 +283,7 @@ bool PredictorEngine::makePrediction( vector<tuple<string, float>> recentQuestio
 
       auto largest = max_element( begin( predictions ), end( predictions ) );
       predicted = static_cast<Parties>( distance( begin( predictions ), largest ) );
+
       swing = swings[predicted];
 
       largest = max_element( begin( lastResults ), end( lastResults ) );

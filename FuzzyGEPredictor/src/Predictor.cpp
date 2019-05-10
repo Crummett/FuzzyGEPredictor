@@ -54,8 +54,8 @@ void Predictor::Predict()
 
    int iPollingMonths;
    cout << "\nEnter months of polling to use: " << endl;
-   //   cin >> iPollingMonths;
-   iPollingMonths = 5;
+   cin >> iPollingMonths;
+   //iPollingMonths = 5;
    cout << "Aggregating " << iPollingMonths << " months of polling..." << endl;
 
    vector<vector<tuple<string, float>>> rankedquestions;
@@ -65,6 +65,7 @@ void Predictor::Predict()
    mostRecentPolling( iPollingMonths, &recentQuestions );
 
    //============================//
+   totalRulesCount = 0;
    int totalPreviousMPs[14] = { 0 };
    int totalNewMPs[14] = { 0 };
 
@@ -137,6 +138,9 @@ void Predictor::Predict()
                {
                   newMPExport[i] = newMPs[i];
                }
+
+               // Delete the engine when done. Keeping them fills up to a gig of memory.
+               engine->~PredictorEngine();
             }
          }
          // Report results and add to the right lists
@@ -202,8 +206,15 @@ void Predictor::Predict()
       regresult += ";";
    }
    spreadsheet << regresult << endl;
-
    spreadsheet.close();
+
+   cout << "\nTOTALS" << endl;
+   for ( int i = 0; i < 14; i++ )
+   {
+      cout << saFullPartyNames[i] << ": " << to_string( totalNewMPs[i] ) << endl;
+   }
+
+   //cout << "\nRules generated: " << totalRulesCount << endl;
 }
 
 bool Predictor::AggregatePolling( int numMonths, vector<int> vElectionDates,

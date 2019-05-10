@@ -5,12 +5,19 @@ cmake_minimum_required (VERSION 3.10)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_BUILD_TYPE Debug)
 
 project ("FuzzyGEPredictor")
 
 # Include sub-projects.
 add_subdirectory ("FuzzyGEPredictor")
+
+option ( BUILD_IN_RELEASE "Cmake build type" OFF)
+
+if (BUILD_IN_RELEASE)
+    set(CMAKE_BUILD_TYPE Release)
+else()
+    set(CMAKE_BUILD_TYPE Debug)
+endif()
 
 option(FL_BACKTRACE "Provide backtrace information in case of errors" ON)
 option(FL_STATIC "Statically link to fuzzylite libraries" ON)

@@ -21,6 +21,8 @@ public:
 
    bool getPrediction( Parties * holder, Parties * pred, float * swi );
 
+   int totalRulesCount;
+
 private:
    string sName;
    Parties previous;

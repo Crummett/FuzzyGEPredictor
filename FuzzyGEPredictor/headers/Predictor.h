@@ -15,7 +15,9 @@ public:
 
    void Predict();
 
-   bool AggregatePolling( int numMonths, vector<int> vElectionDates, vector<vector<tuple<string, float>>> * rankedquestions );
+   bool AggregatePolling( int numMonths, vector<int> vElectionDates, vector<vector<tuple<string, float>>>* rankedquestions );
+
+   int totalRulesCount;
 
 private:
    vector<ConstituencyRegion *> vConstitRegions;

@@ -16,6 +16,8 @@ using namespace fl;
 
 namespace fs = std::filesystem;
 
+extern int totalRulesCount;
+
 // CONSTANTS
 const enum Region
 { // Constituencies are organised into their EU constituencies

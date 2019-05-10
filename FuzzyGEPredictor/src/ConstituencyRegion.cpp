@@ -163,14 +163,19 @@ bool ConstituencyRegion::CalcConstituencyVoteChanges()
 
             vector<float> * voteshare = region.vchConstituencies[regionlocation].voteshare;
 
-            voteshare[Conservatives].push_back( (float)result.ivCON[location] / (float)turnout * 100 );
-            voteshare[Labour].push_back( (float)result.ivLAB[location] / (float)turnout * 100 );
-            voteshare[LibDems].push_back( (float)result.ivLIB[location] / (float)turnout * 100 );
-            voteshare[Nationalist].push_back( (float)result.ivNAT[location] / (float)turnout * 100 );
-            voteshare[Minor].push_back( (float)result.ivMIN[location] / (float)turnout * 100 );
-            voteshare[Other].push_back( (float)result.ivOTH[location] / (float)turnout * 100 );
-            voteshare[UKIP].push_back( (float)result.ivUKIP[location] / (float)turnout * 100 );
-            voteshare[Green].push_back( (float)result.ivGreen[location] / (float)turnout * 100 );
+            voteshare[Conservatives].push_back( (float)result.ivCON[location] );
+            voteshare[Labour].push_back( (float)result.ivLAB[location] );
+            voteshare[LibDems].push_back( (float)result.ivLIB[location] );
+            voteshare[Nationalist].push_back( (float)result.ivNAT[location] );
+            voteshare[Minor].push_back( (float)result.ivMIN[location] );
+            voteshare[Other].push_back( (float)result.ivOTH[location] );
+            voteshare[UKIP].push_back( (float)result.ivUKIP[location] );
+            voteshare[Green].push_back( (float)result.ivGreen[location] );
+
+            for ( int i = 0; i < NumOfParties; i++ )
+            {
+               voteshare[i].back() = ( voteshare[i].back() / turnout * 100 );
+            }
          }
          else // Not in previous results so create new ConstituencyHistory
          {
@@ -196,21 +201,27 @@ bool ConstituencyRegion::CalcConstituencyVoteChanges()
             newConstitHist.viElectorate.push_back( iElectorate );
 
             int turnout = ( result.ivCON[location] + result.ivLAB[location] + result.ivLIB[location] + result.ivNAT[location] +
-               result.ivMIN[location] + result.ivOTH[location] + result.ivUKIP[location] + result.ivGreen[location] )
-               / iElectorate;
+               result.ivMIN[location] + result.ivOTH[location] + result.ivUKIP[location] + result.ivGreen[location] );
 
             newConstitHist.viTurnout.push_back( turnout );
 
+            newConstitHist.viParticipatedElections.push_back( result.iGEDate );
+
             vector<float> * voteshare = newConstitHist.voteshare;
 
-            voteshare[Conservatives].push_back( (float)result.ivCON[location] / (float)turnout * 100 );
-            voteshare[Labour].push_back( (float)result.ivLAB[location] / (float)turnout * 100 );
-            voteshare[LibDems].push_back( (float)result.ivLIB[location] / (float)turnout * 100 );
-            voteshare[Nationalist].push_back( (float)result.ivNAT[location] / (float)turnout * 100 );
-            voteshare[Minor].push_back( (float)result.ivMIN[location] / (float)turnout * 100 );
-            voteshare[Other].push_back( (float)result.ivOTH[location] / (float)turnout * 100 );
-            voteshare[UKIP].push_back( (float)result.ivUKIP[location] / (float)turnout * 100 );
-            voteshare[Green].push_back( (float)result.ivGreen[location] / (float)turnout * 100 );
+            voteshare[Conservatives].push_back( (float)result.ivCON[location] );
+            voteshare[Labour].push_back( (float)result.ivLAB[location] );
+            voteshare[LibDems].push_back( (float)result.ivLIB[location] );
+            voteshare[Nationalist].push_back( (float)result.ivNAT[location] );
+            voteshare[Minor].push_back( (float)result.ivMIN[location] );
+            voteshare[Other].push_back( (float)result.ivOTH[location] );
+            voteshare[UKIP].push_back( (float)result.ivUKIP[location] );
+            voteshare[Green].push_back( (float)result.ivGreen[location] );
+
+            for ( int i = 0; i < NumOfParties; i++ )
+            {
+               voteshare[i].back() = ( voteshare[i].back() / turnout * 100 );
+            }
 
             region.vchConstituencies.push_back( newConstitHist );
          }
